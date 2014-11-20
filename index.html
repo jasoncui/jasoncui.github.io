@@ -1,281 +1,411 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
-    <meta name="author" content="">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	
+	<!-- *** EDIT ME *** -->
+    <title>Enter Your Page Title Here</title>
+    
+    <!-- *** EDIT ME *** -->
+    <meta content="Keyword, Keyword, Keyword" name="keywords">
+    
+    <!-- *** EDIT ME *** -->
+    <meta content="Short, desriptive blurb about what you're offering." name="description">
 
-    <title>Jason Cui</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+    
+    <link href="css/main.css" media="all" rel="stylesheet" type="text/css">
+    
+    <link charset="utf-8" href="stylesheet.css" rel="stylesheet" type="text/css">
+    
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 	
-    <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
 	
-	 <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
-	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
-	<script src="js/PIE_IE9.js"></script>  
-	<script src="js/PIE_IE678.js"></script>  
-	
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
+	<script type="text/javascript">
+			$(function() {
+    			$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });		
+			});
+		</script>    
 </head>
 
-<body id="home">
+<body>
 
-	<!-- Preloader -->
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
+	<!-- CALL TO ACTION CONTAINER -->
 	
-	<!-- FullScreen -->
-    <div class="intro-header">
-		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Jason Cui</h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Learn more about me.</h3>
-			<ul class="list-inline intro-social-buttons">
-				<li><a href="https://www.linkedin.com/in/jasonscui" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">LinkedIn</span></a>
-				</li>
-				<li id="download" ><a href="https://www.facebook.com/JasonSCui" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Facebook</span></a>
-				</li>
-			</ul>
-		</div>    
-        <!-- /.container -->
-		<div class="col-xs-12 text-center abcen wow fadeIn">
-			<div class="button_down "> 
-				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#aboutme"> <img class="img_scroll" src="img/downarrow.svg" alt=""> </a>
-			</div>
-		</div>
-    </div>
+	<div id="cta-container">
 	
-	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home">Jason Cui</a>
+		<div class="cta">
+		
+			<div class="logo">
+				<img width="200" src="images/logo.svg">
 			</div>
-
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="#aboutme">About Me</a></li>
-					<li class="menuItem"><a href="#screen">Screenshot</a></li>
-					<li class="menuItem"><a href="#credits">Credits</a></li>
-					<li class="menuItem"><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
-		   
-		</div>
-	</nav> 
-	
-	<!-- About Me -->
-    <div id ="aboutme" class="content-section-a">
-
-        <div class="container">
 			
-            <div class="row">
 			
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive img-rounded" src="img/jason.jpg" alt="">
-                </div>
+			<div class="copy">
 				
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">About Me</h3>
-					<div class="sub-title lead3">I'm currently a student at Harvard University.</div>
-                    <p class="lead">
-						This section is reserved for test text.
-					</p>
-
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>   
-            </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-             <div class="row">
-			 
-				<div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/doge.png" alt="">
-                </div>
-			 
-                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Font Awesome & Glyphicon</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for 
-					providing the photographs that you see in this template. 
-					</p>
+				<h1>
+				<!-- *** EDIT ME *** -->
+				Send gifts to the people you care about.
+				</h1>
+				
+				
+				<h3>
+				<!-- *** EDIT ME *** -->
+				We are revolutionizing the world of care packages and the way individuals connect. By allowing you to personalize care packages with an emphasis on <strong>design</strong>, we've created a fully-customizable product to suit your needs.
+				</h3>
+			
+			</div>
+			
+			<div class="main-button">
+			
+				
+				<a rel="leanModal" name="signup" href="#signup" class="main-btn">
 					
-					<ul class="descp lead2">
-						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
-					</ul>
-				</div>           
-            </div>
-        </div>
+					<!-- *** EDIT ME *** -->
+					Sign-up Now 
+					
+				</a>
+			
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	<!-- PRICING CONTAINER -->
+	
+	<div id="pricing-container">
+	
+		<div class="pricing">
+		
+			<div class="plan">
+			
+				<div class="plan-type">
+					<!-- *** EDIT ME *** -->
+					Standard Box
+				</div>
+				
+				<div class="plan-price">
+					<!-- *** EDIT ME *** -->
+					<p class="amount"><sup>$</sup>20</p>
+					<p class="tiny">per box</p>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature One 
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					<strike>Feature Two</strike>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					<strike>Feature Three</strike>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					<strike>Feature Four</strike>
+				</div>
+				
+				<div class="plan-btn">
+					
+					<a class="plan-btn-style" rel="leanModal" name="signup" href="#signup">
+					<!-- *** EDIT ME *** -->
+					Sign me up!
+					</a>
+				
+				</div>
+							
+			</div>
+			
+			
+			<div class="plan-best">
+			
+				<div class="plan-type">
+					<!-- *** EDIT ME *** -->
+					Deluxe Box
+				</div>
+				
+				<div class="plan-price-best">
+					<!-- *** EDIT ME *** -->
+					<p class="amount"><sup>$</sup>40</p>
+					<p class="tiny">per box</p>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature One
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature Two
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					<strike>Feature Three</strike>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					<strike>Feature Four</strike>
+				</div>
+				
+				<div class="plan-btn">
+					
+					<a class="plan-btn-style" rel="leanModal" name="signup" href="#signup">
+					<!-- *** EDIT ME *** -->
+					Sign me up!
+					</a>
+				
+				</div>
+			
+			</div>
+			
+			
+			<div class="plan">
+			
+				<div class="plan-type">
+					<!-- *** EDIT ME *** -->
+					Elite Box
+				</div>
+				
+				<div class="plan-price">
+					<!-- *** EDIT ME *** -->
+					<p class="amount"><sup>$</sup>50</p>
+					<p class="tiny">per box</p>
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature One
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature Two
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature Three
+				</div>
+				
+				<div class="feature">
+					<!-- *** EDIT ME *** -->
+					Feature Four
+				</div>
+				
+				<div class="plan-btn">
+					<a class="plan-btn-style" rel="leanModal" name="signup" href="#signup">
+					<!-- *** EDIT ME *** -->
+					Sign me up!
+					</a>
+				
+				</div>
+			
+			</div>
+			
+						
+		
+		</div>
+		
+	
+	</div>
+	
+	<!-- FIRST FEATURE BENEFIT -->
+	
+	<div id="feature-a-container">
+	
+	<div class="feature-a">
+		
+		<div class="feature-a-copy">
+		
+			<!-- *** EDIT ME *** -->
+			<h2>GiftBox is easy-to-use and for everyone.</h2>
+			
+			<!-- *** EDIT ME *** -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta interdum nisi et aliquam. Cras ac orci at dolor volutpat condimentum in ac dui. Nunc auctor ut nulla eget congue. Morbi nec gravida nulla.</p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn">
+				<!-- *** EDIT ME *** -->
+				Learn More
+				</a>
+			
+			</div>	
+		
+		</div>
+		
+		<div class="feature-a-image">
+		
+			<img src="images/feature-image.png" />
+		
+		</div>
+	
+	
+	</div>
+	
+	</div>
+	
+	<!-- SECOND FEATURE BENEFIT -->
+	
+	<div id="feature-b-container">
+	
+	<div class="feature-b">
+		
+		<div class="feature-b-image">
+		
+			<img src="images/feature-image.png" />
+		
+		</div>
+	
+		<div class="feature-b-copy">
+		
+			<!-- *** EDIT ME *** -->
+			<h2>Describe a Fantastic Benefit</h2>
+			
+			<!-- *** EDIT ME *** -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta interdum nisi et aliquam. Cras ac orci at dolor volutpat condimentum in ac dui. Nunc auctor ut nulla eget congue. Morbi nec gravida nulla.</p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn">
+				<!-- *** EDIT ME *** -->
+				Learn More 
+				</a>
+				
+			</div>	
+		
+		</div>
+	
+	</div>
+	
+	</div>
+	
+	<div id="feature-a-container">
+	
+	<div class="feature-a">
+		
+		<div class="feature-a-copy">
+		
+			<!-- *** EDIT ME *** -->
+			<h2>Describe a Fantastic Benefit</h2>
+			
+			<!-- *** EDIT ME *** -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta interdum nisi et aliquam. Cras ac orci at dolor volutpat condimentum in ac dui. Nunc auctor ut nulla eget congue. Morbi nec gravida nulla.</p>
+			
+			
+			<div class="feature-button">
+				
+				<a rel="leanModal" name="signup" href="#signup" class="feature-btn">
+				<!-- *** EDIT ME *** -->
+				Learn More 
+				</a>
+				
+			</div>	
+		
+		</div>
+		
+		<div class="feature-a-image">
+		
+			<img src="images/feature-image.png" />
+		
+		</div>
+	
+	
+	</div>
+	
+	</div>
 
+	
+	</div>
+	
+	<!-- FOOTER CONTAINER -->
+	
+	<div id="footer-container">
+	
+		<div class="footer">
+		
+			<div class="copyright">
+				<!-- *** EDIT ME *** -->
+				<p>Copyright © 2014 Your Company Name</p>
+			</div>
+		
+		</div>
+
+	</div>
+	
+	<!-- POP UP SIGN UP BOX -->
+	
+	 <div id="signup">
+        <h4>
+        <!-- *** EDIT ME *** -->
+        We are so close to launching!
+        </h4>
+        
+        <p class="size16">
+        <!-- *** EDIT ME *** -->
+        So glad you're interested in signing up. Please leave us your email, we'll let you know the moment we launch. You can also give us feedback to help us built the perfect product for you.
+        </p>
+
+		<!-- *** START OF WUFOO FORM EMBED CODE *** -->
+        <form accept-charset="UTF-8" action=
+        "https://usabilityhour.wufoo.eu/forms/w1e6uhhi0oebzsp/#public"
+        autocomplete="off" class="wufoo topLabel page" enctype=
+        "multipart/form-data" id="form6" method="post" name="form6" novalidate=
+        "">
+        <!-- END OF WUFOO EMBED CODE -->
+            <ul>
+                <li class="notranslate" id="foli1">
+                    <div>
+                        <input class="field text medium" id="Field1" maxlength=
+                        "255" name="Field1" placeholder=
+                        "Enter your email to be notified" required=""
+                        spellcheck="false" tabindex="1" type="email">
+                    </div>
+                </li>
+
+
+                <li class="buttons">
+                    <div>
+                    	<!-- *** EDIT AFTER VALUE=" *** -->
+                        <input class="btTxt submit" id="saveForm" name=
+                        "saveForm" onclick="”_gaq.push(['_trackEvent'," type=
+                        "submit" value="Remind me when you launch">
+                    </div>
+                    <div id="no">
+                    
+                    	<a class="modal_close" href="#">
+                    	<!-- *** EDIT ME *** -->
+                    	No thanks, I don't need this product.
+                    	</a>
+                    
+                    </div>
+                </li>
+
+
+                <li class="hide"><label for="comment">Do Not Fill This
+                Out</label> 
+
+                <textarea cols="1" id="comment" name="comment" rows="1">
+</textarea> 
+				<!-- *** REPLACE VALUE WITH CODE FROM WUFOO *** -->
+				<input id="idstamp" name="idstamp" type="hidden"
+                value="HIQecF8d3pfU1vhFNgY8KGuLYz/vmRduMhF7CS0FMw0="></li>
+            </ul>
+        </form>
     </div>
-	
-	<!-- Credits -->
-	<div id="credits" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Credits</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		</div>
-	</div>
-	
-	<!-- Contact -->
-	<div id="contact" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Contact Me</h2>
-			</div>
-			</div>
-		</div>
-	</div>
-			
-	
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="footer-title">Follow Me!</h3>
-            <p>Vuoi ricevere news su altri template?<br/>
-              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
-              Go to: <a  href="http://andreagalanti.it" target="_blank">andreagalanti.it</a>
-            </p>
-			
-			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti.</a>
-	   
-          </div> <!-- /col-xs-7 -->
 
-          <div class="col-md-5">
-            <div class="footer-banner">
-              <h3 class="footer-title">Flatfy Theme</h3>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
-	<!-- StikyMenu -->
-	<script src="js/stickUp.min.js"></script>
-	<script type="text/javascript">
-	  jQuery(function($) {
-		$(document).ready( function() {
-		  $('.navbar-default').stickUp();
-		  
-		});
-	  });
-	
-	</script>
-	<!-- Smoothscroll -->
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
-	<script src="js/wow.min.js"></script>
-	<script>
-	 new WOW().init();
-	</script>
-	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
-	<!-- Magnific Popup core JS file -->
-	<script src="js/jquery.magnific-popup.js"></script> 
 </body>
 
 </html>
