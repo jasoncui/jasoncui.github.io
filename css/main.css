@@ -507,5 +507,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	line-height: 29px;
 }
 
+.bold-design {
+	font-style: italic;
+}
+
 }
 
