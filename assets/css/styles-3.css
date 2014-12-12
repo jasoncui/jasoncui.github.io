@@ -183,7 +183,7 @@ pre code {
 .promo {
   background: #6690b9;
   color: #fff;
-  padding-top: 150px;
+  padding-top: 70px;
 }
 .promo .title {
   font-size: 98px;
@@ -230,6 +230,14 @@ pre code {
   margin-top: 0;
   position: relative;
   top: -5px;
+}
+
+.promo .jason img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 /* ======= About Section ======= */
 .about {
@@ -537,7 +545,7 @@ pre code {
   float: left;
 }
 .contact .social-icons a:hover {
-  background: #f04085;
+  background: #22364a;
 }
 .contact .social-icons a .fa {
   color: #fff;
