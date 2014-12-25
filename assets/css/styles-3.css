@@ -233,7 +233,7 @@ pre code {
 }
 
 .promo .jason img {
-  width: 35%;
+  width: 20%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -275,30 +275,42 @@ pre code {
   color: #2a435c;
   font-size: 18px;
 }
-/* ======= Features Section ======= */
-.features {
+/* ======= projects Section ======= */
+.projects {
   padding: 80px 0;
   background: #6690b9;
   color: #fff;
 }
-.features .title {
+.projects .title {
   color: #2a435c;
   margin-top: 0;
+  margin-bottom: 60px;
+}
+.projects .intro {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.projects .item {
+  position: relative;
   margin-bottom: 30px;
 }
-.features a {
+.projects .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.projects .item .icon-holder .fa {
+  font-size: 24px;
   color: #2a435c;
 }
-.features a:hover {
-  color: #1a2a39;
+.projects .item .content {
+  padding-left: 60px;
 }
-.features .feature-list li {
-  margin-bottom: 10px;
+.projects .item .content .sub-title {
+  margin-top: 0;
   color: #2a435c;
-}
-.features .feature-list li .fa {
-  margin-right: 5px;
-  color: #fff;
+  font-size: 18px;
 }
 /* ======= Docs Section ======= */
 .docs {
@@ -417,6 +429,36 @@ pre code {
 }
 .license .cta-container .intro {
   margin-bottom: 30px;
+}
+/* ======= Education Section ======= */
+.education {
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+.education .title {
+  color: #2a435c;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.education .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.education .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.education .item .icon-holder .fa {
+  font-size: 24px;
+  color: #2a435c;
+}
+.education .item .content {
+  padding-left: 60px;
+}
+.education .item .content .sub-title {
+  margin-top: 0;
+  color: #2a435c;
 }
 /* ======= Contact Section ======= */
 .contact {
