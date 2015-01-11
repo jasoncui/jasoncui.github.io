@@ -239,6 +239,55 @@ pre code {
   margin-left: auto;
   margin-right: auto 
 }
+
+.promo .social-icons {
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+.promo .social-icons li {
+  float: left;
+}
+.promo .social-icons li.last {
+  margin-right: 0;
+}
+.promo .social-icons a {
+  display: inline-block;
+  background: #426a90;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  padding-top: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 8px;
+  float: left;
+}
+.promo .social-icons a:hover {
+  background: #22364a;
+}
+.promo .social-icons a .fa {
+  color: #fff;
+}
+.promo .social-icons a .fa:before {
+  font-size: 26px;
+  text-align: center;
+  padding: 0;
+}
+
+.promo .info .sub-title {
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
@@ -461,10 +510,10 @@ pre code {
   color: #2a435c;
 }
 /* ======= Contact Section ======= */
+
 .contact {
   padding: 80px 0;
-  background: #6690b9;
-  color: #fff;
+  background: #D7DAE0;
 }
 .contact .contact-inner {
   max-width: 760px;
