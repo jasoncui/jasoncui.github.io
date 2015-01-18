@@ -1,0 +1,134 @@
+body {
+  min-height: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/* Header 
+--------------------------------------------- */
+
+.header {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.header h1,
+.header .h1 {
+  color: inherit;
+}
+.header p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.header > hr {
+  border-top-color: #d5d5d5;
+}
+.container .header,
+.container-fluid .header {
+  border-radius: 6px;
+}
+.header .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 48px 0;
+  }
+  .container .header {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .header h1,
+  .header .h1 {
+    font-size: 63px;
+  }
+}
+
+.header {
+	height: 200px;
+	background-color: #1E1F20;
+	color: #fff;
+	line-height: 150%;
+	margin-bottom: 40px;
+}
+
+.header .name {
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 5px;
+}
+
+.header .short-bio {
+	font-size: 15px;
+	color: #B5B5B6;
+	font-weight: 300;
+}
+
+hr {
+   border: none 0;
+   border-top: 1px solid gainsboro;
+   height: 1px;
+   margin: 0;
+   padding: 5px;
+   width: 90%;
+   opacity: 80%;
+}
+
+.header .share-button {
+	margin-top: 10px;
+	float: right;
+	width: 80px;
+}
+
+.header .right-align {
+	text-align: right;
+}
+
+.header .followers {
+	font-weight: 300;
+}
+
+/* Cars Section
+--------------------------------------------- */
+
+.cars {
+	margin-bottom: 30px;
+}
+.cars .hero-feature-1 {
+}
+
+.cars .hero-feature-2 {
+}
+
+.cars .hero-feature-3 {
+}
+
+.cars .car-description {
+	text-align: left;
+	padding-left: 20px;
+}
+
+/* Footer
+--------------------------------------------- */
+.footer {
+	text-align: center;
+}
+
