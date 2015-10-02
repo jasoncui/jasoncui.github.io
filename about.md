@@ -5,14 +5,12 @@ title: About
 
 Welcome to my site! My name is Jason Cui and I'm a sophomore at Harvard studying computer science.
 
-There are currently two themes built on Poole:
+## Social
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
+* [LinkedIn](https://www.linkedin.com/in/jasonscui)
+* [Twitter](https://www.twitter.com/JasonSCui)
+* [Instagram](https://www.instagram.com/JasonSCui)
+* [Facebook](https://www.facebook.com/JasonSCui)
 
 Some fun facts about the setup of this project include:
 
