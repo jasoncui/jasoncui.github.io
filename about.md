@@ -3,7 +3,9 @@ layout: page
 title: About
 ---
 
-Welcome to my site! My name is Jason Cui and I'm a sophomore at Harvard studying computer science.
+Welcome to my site! My name is Jason Cui and I am a sophomore at Harvard studying computer science. I am passionate about technology, scientific discovery, and entrepreneurship. This site is a collection of my projects, thoughts, and random materials I find interesting.
+
+Feel free to reach out on my [contact page]({{ site.url }}/contact.md) or through my social media handles below.
 
 ## Social
 
