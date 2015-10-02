@@ -12,13 +12,6 @@ Welcome to my site! My name is Jason Cui and I'm a sophomore at Harvard studying
 * [Instagram](https://www.instagram.com/JasonSCui)
 * [Facebook](https://www.facebook.com/JasonSCui)
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+If you're curious, this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free!) with [GitHub Pages](https://pages.github.com).
 
 Thanks for reading!
