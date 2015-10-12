@@ -5,7 +5,7 @@ title: Working with HelloToken
 
 Last week, I  was brought on board [HelloToken](http://www.hellotoken.com) as a part of the business development team. For now I'll be working with them for the rest of the semester but, if things go well, I'll continue throughout the rest of the term. And hopefully they do! 
 
-## What exactly does [HelloToken](http://www.hellotoken.com) do?
+#### What exactly does [HelloToken](http://www.hellotoken.com) do?
 
 Essentially, HelloToken is a product that enables publishers to earn exponentially more per visitor than ads and paywalls through a one-click question that serves as a micropayment. As daily consumers of content, nothing is more distracting and unaesthetic than intrusive advertisements or blurred out paywalls.
 
