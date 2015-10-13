@@ -19,8 +19,10 @@ Publishers and bloggers can then use these questions as a form of monetization. 
 
 Check out a cool video about HelloToken:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PcfSZmo3ZP0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PcfSZmo3ZP0" frameborder="0" allowfullscreen></iframe> 
 
 #### What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?
+
+Currently 
 
 Check out HelloToken on [Facebook](https://www.facebook.com/thehellotoken) and [Twitter](https://twitter.com/hello_token)!
