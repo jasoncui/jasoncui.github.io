@@ -17,7 +17,7 @@ HelloToken can replace all obtrusive advertisements on a site with a clean, one-
 
 Publishers and bloggers can then use these questions as a form of monetization. By integrating HelloToken into their sites, publishers can be paid for each question answered by visitors to the sites. 
 
-Check out a cool video about HelloToken:
+Below is a cool video about HelloToken:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PcfSZmo3ZP0" frameborder="0" allowfullscreen></iframe> 
 
