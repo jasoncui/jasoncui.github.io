@@ -19,4 +19,6 @@ Publishers and bloggers can then use these questions as a form of monetization. 
 
 #### Okay, but why does content monetization need improvement?
 
-#### What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?  
+#### What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?
+
+Check out HelloToken on [Facebook](https://www.facebook.com/thehellotoken) and [Twitter](https://twitter.com/hello_token)!
