@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Contact
 ---
 
 This is my contact page.
