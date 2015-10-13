@@ -13,6 +13,6 @@ HelloToken can replace all obtrusive advertisements on a site with a clean, one-
 
 Publishers and bloggers can then use these questions as a form of monetization. By integrating HelloToken into their sites, publishers can be paid for each question answered by visitors to the sites. 
 
-## Okay, but why does content monetization need improvement?
+#### Okay, but why does content monetization need improvement?
 
-## What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?  
+#### What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?  
