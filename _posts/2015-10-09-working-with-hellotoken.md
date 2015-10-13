@@ -23,6 +23,8 @@ Below is a cool video about HelloToken:
 
 #### What is [HelloToken](http://www.hellotoken.com)'s current strategy and plans for expansion?
 
-Currently 
+As of now HelloToken is based in Boston and working out of Harvard's [i-lab](https://i-lab.harvard.edu/), a great collaborative coworking space. With a little bit of angel funding under its belt, its looking to build up the team in terms of engineers, business development, content and design. 
 
-Check out HelloToken on [Facebook](https://www.facebook.com/thehellotoken) and [Twitter](https://twitter.com/hello_token)!
+Around 60 or so publishers have also been signed on, with the focus now being put on researchers and startups who might utilize the product.  
+
+Check out HelloToken on [Facebook](https://www.facebook.com/thehellotoken) and [Twitter](https://twitter.com/hello_token) and keep up-to-date with progress!
