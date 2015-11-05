@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with HelloToken
+comments: True
 ---
 
 ![HelloToken Image](/public/hellotoken.png)
