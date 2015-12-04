@@ -6,7 +6,7 @@ comments: True
 
 ![HelloToken Image](/public/hellotoken.png)
 
-Last week, I  was brought on board [HelloToken](http://www.hellotoken.com) as a part of the business development team. For now I'll be working with them for the rest of the semester but, if things go well, I'll continue throughout the rest of the term. And hopefully they do! 
+Last week, I  was brought on board [HelloToken](http://www.hellotoken.com) as a part of the business development team. For now I'll be working with them for the rest of the semester for the fall term. 
 
 So far, there has been some [cool](http://venturefizz.com/blog/hellotoken-changing-way-we-monetize-content) [press](http://www.betaboston.com/news/2015/09/08/by-posing-questions-to-website-visitors-boston-based-hellotoken-hopes-to-supply-answer-to-revenue-quandary/) on HelloToken. 
 
