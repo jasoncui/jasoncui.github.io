@@ -19,4 +19,4 @@ Feel free to reach out on my [contact page]({{ site.url }}/contact) or through m
 If you're curious, this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com).
 
 Thanks for reading!
-<img src="signature.jpg" alt="Signature" style="width: 200px;"/>
+<img src="public/signature.jpg" alt="Signature" style="width: 200px;"/>
