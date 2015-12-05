@@ -10,4 +10,9 @@ First a bit of personal context. I first fell in love with training while in hig
 
 I didn't lift a single weight or adhere to any sort of plan; instead, I valued the feelings of satisfaction and accomplishment each workout gave me. Sweat and exertion were converted into much needed endorphins, distracting me from a difficult test or upcoming deadline. 
 
-It wasn't until the summer before my freshman year of college that I got my first gym membership. 
+It wasn't until the summer before my freshman year of college that I got my first gym membership. I was by no means an expert (or have any experience at all for that matter), but I came in with enthusiasm. I fell in love with the progression and consistency. 
+
+
+At present day, my love for the gym has grown, matured. I am by no means an expert or even accomplished bodybuilder or powerlifter, but without a doubt working out has become one of my passions. 
+
+> *"As a kid, what brought me in the gym, what got me in there every day was a chance to break your personal best, a chance to be strong; I just really, really dig that."* - John Cena
