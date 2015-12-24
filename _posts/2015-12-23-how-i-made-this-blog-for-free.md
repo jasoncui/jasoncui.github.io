@@ -25,5 +25,5 @@ This site wouldn't have been possible without the helpful documentation and walk
 
 [Link](http://www.testlink.com)
 
-#### What exactly does [HelloToken](http://www.hellotoken.com) do?
+In the future I'd love to figure out how to tag posts and then sort by category. 
 
