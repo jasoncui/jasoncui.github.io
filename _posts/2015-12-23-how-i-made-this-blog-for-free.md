@@ -6,7 +6,9 @@ comments: True
 
 *I've had a lot of people ask me how I made this blog. Completely for free. Below I outline some of the steps I took. Hopefully this will serve as a helpful resource to those looking to start a personal site or blog of their own.* 
 
-As I mention in the [about section]({{ site.url }}/about), this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com).
+As I mention in the [about section]({{ site.url }}/about), this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com). I'll do my best to go through step-by-step the entire process I took. Feel free to leave any questions or comments in the comment section below (which should be working with Disqus integration). 
+
+#### Jekyll
 
 [Link](http://www.testlink.com)
 
