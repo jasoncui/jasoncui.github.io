@@ -27,11 +27,13 @@ This site wouldn't have been possible without the helpful documentation and walk
 
 ![Poole]({{ site.url }}/public/poole.png){: .center-image }
 
-As mentioned above, Poole is the Jekyll theme used for this site.
+As mentioned above, [Poole](http://getpoole.com/) is the Jekyll theme used for this site. Poole also offers two official themes within it called *Hyde* and *Landon* that offer additional features ranging from two-column themes to hidden navigation bars. 
 
 #### URL 
 
+Unfortunately this section will apply only to students. Namecheap for Education offers a free .me domain to students with a .edu address. You can get your free .me domain [here](https://nc.me/). 
 
+With the domain from Namecheap, it is easy to configure Namecheap DNS for Github pages. A good tutorial for that process can be found [here](http://abdelraoof.com/blog/2014/09/20/configuring-namecheap-dns-for-github/).
 
 
 
