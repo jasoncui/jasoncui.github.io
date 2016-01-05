@@ -21,11 +21,13 @@ This site wouldn't have been possible without the helpful documentation and walk
 
 #### Jekyll 
 
-[Jekyll](http://jekyllrb.com) is a "static site generator" that runs with Ruby under the hood. Essentially, it takes content that is formatted in Markdown (a markup language using plain text) and from that generates a static site. 
-
-[Github Pages](http://jekyllrb.com/docs/github-pages/) uses Jekyll which allows users to host and publish content for free. 
+[Jekyll](http://jekyllrb.com) is a "static site generator" that runs with Ruby under the hood. It takes content that is formatted in Markdown (a markup language using plain text) and from that generates a static site. [Github Pages](http://jekyllrb.com/docs/github-pages/) uses Jekyll which allows users to host and publish content for free. 
 
 #### Poole 
+
+![Poole]({{ site.url }}/public/poole.png){: .center-image }
+
+As mentioned above, Poole is the Jekyll theme used for this site.
 
 #### URL 
 
