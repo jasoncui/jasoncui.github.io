@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![Jason Cui]({{ site.url }}/public/peace.JPG){: .center-image }
+![Jason Cui]({{ site.url }}/public/jason2.JPG){: .center-image }
 
 My name is Jason Cui and I am a sophomore at Harvard studying computer science. I am passionate about technology, scientific discovery, and entrepreneurship. This site is a collection of my projects, thoughts, and random materials I find interesting.
 
