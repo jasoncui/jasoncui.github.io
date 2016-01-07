@@ -6,7 +6,7 @@ comments: True
 
 ![DC]({{ site.url }}/public/washington.jpg){: .center-image }
 
-*I've had a lot of people ask me how I made this blog for free. Below I outline some of the steps I took. Hopefully this serves as a helpful resource to those looking to start a personal blog of their own.* 
+*Post Intro.* 
 
 As I mention in the [about section]({{ site.url }}/about), this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com). I'll do my best to gather all the resources I used to build this site. Feel free to leave any questions or comments in the comment section below (which should be working with Disqus integration). 
 
