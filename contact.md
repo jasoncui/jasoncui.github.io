@@ -3,4 +3,6 @@ layout: page
 title: Contact
 ---
 
-Feel free to contact me below. Unless I am away, I promise to respond within 24 hours!
+Shoot me an email.
+
+jasoncui[at]college.harvard.edu
