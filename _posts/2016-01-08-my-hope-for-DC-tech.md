@@ -6,7 +6,7 @@ comments: True
 
 ![DC]({{ site.url }}/public/washington.jpg){: .center-image }
 
-*This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced?) perspective.*
+*This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced) perspective.*
 
 [DCXP Blog Post](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.d7xox5pyu)
 
@@ -20,8 +20,35 @@ Based on my experience, here are a few things I believe would help the area furt
 
 #### More seed funding in DC, Maryland, and Virginia.
 
-This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. And more early-stage companies means more talent and interest drawn to the area. 
+This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
 
-- I think the rise of incubators and co-working spaces in the area is a push in the right direction. See 1776 for DC, and ___ incubators in the DC area 
-- 
+It is somewhat unclear why seed funding is lacking at the moment. [Harry Weller](http://www.nea.com/team/harry-weller) of New Enterprise Associates and [John Backus](http://nav.vc/team/john-backus/) of New Atlantic Ventures claim a "lack of large exits" means less wealthy individuals who can act as angel investors and write smaller checks pre-series A/B. Perhaps individuals are flocking to areas outside of DC -- the Valley, NYC, and Boston because they know that funding is more plentiful there, especially on a smaller scale. 
 
+--Image of 1776 Offices--
+
+Regardless, there is definitely room for improvement. A clear solution has not immediately materialized, but I believe the rise of incubators and co-working spaces in the area is a push in the right direction. See [1776](http://www.1776.vc) in DC and [WeWork](https://www.wework.com/locations/washington-d-c) offices in the area as great examples. 
+
+#### Successful IPOs.
+
+Again this seems relatively explanatory. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
+
+#### A greater focus on attracting, cultivating, and retaining young talent.
+
+This is something I firmly believe in and am personally passionate about. Startup dogma states that a solid team is one of the most important pillars of a successful company. And for startups just getting off the ground in the area, finding and retaining a long-term team is not always an easy task. From talking to many young entrepreneurs (both personal friends and acquaintances), they describe the current status quo as one where founders in the DC area want to stay close to home, but end up going elsewhere to better attract cofounders and technical talent. A great example is early-stage teams traveling to incubators and accelerators elsewhere, notably [Y Combinator](https://www.ycombinator.com/) and [TechStars](http://www.techstars.com/), and end up relocating as a result. 
+
+To me this is a great shame. There is so much young local talent from universities and even from the high school level in the DMV that remains untapped. This is one of the main reasons why I founded [DCXP](http://www.joindcxp.org), and I [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
+
+-- Image of DCXP -- 
+
+DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional product that quickly is energizing and testament to the talent available in the DMV.
+
+Tapping into this talent in years to come will be a deciding factor for the future success of this community. Hopefully DCXP will continue to thrive in the area, and similar programs will encourage talented students to stick around.
+
+
+#### Continue to fight the preconceived notion that the area is home to only government and contracting. 
+
+I think this is a pretty outdated idea that still seems to be thrown around in conversations about tech in the area. While it's true that the local tech scene is less prominent in comparison to other hubs around the country, so much has already been done to create a strong community. 
+
+Tech publications have played a large role in strengthening the sense of community (much gratitude to the likes of [DC Inno](http://dcinno.streetwise.co/), [Tech.co](http://tech.co/) and others). Writing more about the community and the key players in the area will continue to help interest and awareness develop. 
+
+![Subscribe]({{ site.url }}/public/subscribe.png){: .center-image }
