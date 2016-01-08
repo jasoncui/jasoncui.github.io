@@ -51,4 +51,4 @@ I think this is a pretty outdated idea that still seems to be thrown around in c
 
 Tech publications have played a large role in strengthening the sense of community (much gratitude to the likes of [DC Inno](http://dcinno.streetwise.co/), [Tech.co](http://tech.co/) and others). Writing more about the community and the key players in the area will continue to help interest and awareness develop. 
 
-![Subscribe]({{ site.url }}/public/subscribe.png){: .center-image }
+![Subscribe]({{ site.url }}/public/subscribe.png =50x){: .center-image }
