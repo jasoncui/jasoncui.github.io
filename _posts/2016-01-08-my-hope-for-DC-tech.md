@@ -18,6 +18,7 @@ Through my various work experiences and time networking with entrepreneurs, VCs,
 
 Based on my experience, here are a few things I believe would help the area further progress in 2016.
 
+
 #### More seed funding in DC, Maryland, and Virginia.
 
 This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
@@ -50,5 +51,3 @@ Tapping into this talent in years to come will be a deciding factor for the futu
 I think this is a pretty outdated idea that still seems to be thrown around in conversations about tech in the area. While it's true that the local tech scene is less prominent in comparison to other hubs around the country, so much has already been done to create a strong community. 
 
 Tech publications have played a large role in strengthening the sense of community (much gratitude to the likes of [DC Inno](http://dcinno.streetwise.co/), [Tech.co](http://tech.co/) and others). Writing more about the community and the key players in the area will continue to help interest and awareness develop. 
-
-![Subscribe]({{ site.url }}/public/subscribe.png){: .center-image }
