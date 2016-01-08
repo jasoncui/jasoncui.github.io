@@ -19,7 +19,7 @@ Through my various work experiences and time networking with entrepreneurs, VCs,
 Based on my experience, here are a few things I believe would help the area further progress in 2016.
 
 
-#### More seed funding in DC, Maryland, and Virginia.
+### More seed funding in DC, Maryland, and Virginia.
 
 This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
 
