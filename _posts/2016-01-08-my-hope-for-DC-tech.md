@@ -8,8 +8,6 @@ comments: True
 
 *This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced) perspective.*
 
-[DCXP Blog Post](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.d7xox5pyu)
-
 #### Introduction 
 
 A bit of background to understand where I'm coming from. I'm currently a sophomore at Harvard studying computer science. Born and bred in Northern Virginia, I've worked at both a startup ([PrepFactory](https://www.prepfactory.com/)) and large tech company ([LivingSocial](https://www.livingsocial.com/)) in the capital. I also started my own non-profit ([DCXP](https://www.joindcxp.org)) in the area to cultivate talented high school and college students, an attempt to strengthen DC's tech community from the ground up. 
@@ -18,8 +16,7 @@ Through my various work experiences and time networking with entrepreneurs, VCs,
 
 Based on my experience, here are a few things I believe would help the area further progress in 2016.
 
-
-### More seed funding in DC, Maryland, and Virginia.
+#### More seed funding in DC, Maryland, and Virginia.
 
 This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
 
@@ -51,3 +48,5 @@ Tapping into this talent in years to come will be a deciding factor for the futu
 I think this is a pretty outdated idea that still seems to be thrown around in conversations about tech in the area. While it's true that the local tech scene is less prominent in comparison to other hubs around the country, so much has already been done to create a strong community. 
 
 Tech publications have played a large role in strengthening the sense of community (much gratitude to the likes of [DC Inno](http://dcinno.streetwise.co/), [Tech.co](http://tech.co/) and others). Writing more about the community and the key players in the area will continue to help interest and awareness develop. 
+
+*Comments? Questions? [Contact]({{ site.url }}/contact) me here or [Subscribe](http://www.google.com) to receive updates on new posts.*
