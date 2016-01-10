@@ -50,6 +50,4 @@ I think this is a pretty outdated idea that still seems to be thrown around in c
 Tech publications have played a large role in strengthening the sense of community (much gratitude to the likes of [DC Inno](http://dcinno.streetwise.co/), [Tech.co](http://tech.co/) and others). Writing more about the community and the key players in the area will continue to help interest and awareness develop. 
 
 ----------
-{% include twitter_plug.html %}
-
-*Comments? Questions? [Contact]({{ site.url }}/contact) me here or [subscribe to my email list](http://www.google.com) to receive updates on new posts.*
+{% include social_plug.html %}
