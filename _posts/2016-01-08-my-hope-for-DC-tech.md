@@ -25,14 +25,12 @@ This is pretty self-explanatory and is the same thought echoed by DC Inno's arti
 
 It is somewhat unclear why seed funding is lacking at the moment. [Harry Weller](http://www.nea.com/team/harry-weller) of New Enterprise Associates and [John Backus](http://nav.vc/team/john-backus/) of New Atlantic Ventures claim a "lack of large exits" means less wealthy individuals who can act as angel investors and write smaller checks pre-series A/B. Perhaps individuals are flocking to areas outside of DC -- the Valley, NYC, and Boston because they know that funding is more plentiful there, especially on a smaller scale. 
 
-![1776]({{ site.url }}/public/1776.jpg){: .center-image }
-
 Regardless, there is definitely room for improvement. A clear solution has not immediately materialized, but I believe the rise of incubators and co-working spaces in the area is a push in the right direction. See [1776](http://www.1776.vc) in DC and [WeWork](https://www.wework.com/locations/washington-d-c) offices in the area as great examples. 
 
 
 ### Successful IPOs.
 
-Again this seems relatively explanatory. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
+Again this seems relatively explanatory, and is more of a *fingers crossed* hope than an actionable goal. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
 
 
 ### A greater focus on attracting, cultivating, and retaining young talent.
