@@ -18,6 +18,7 @@ Through my various work experiences and time networking with entrepreneurs, VCs,
 
 Based on my experience, here are a few things I believe would help the area further progress in 2016.
 
+
 ### More seed funding in DC, Maryland, and Virginia.
 
 This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
@@ -28,9 +29,11 @@ It is somewhat unclear why seed funding is lacking at the moment. [Harry Weller]
 
 Regardless, there is definitely room for improvement. A clear solution has not immediately materialized, but I believe the rise of incubators and co-working spaces in the area is a push in the right direction. See [1776](http://www.1776.vc) in DC and [WeWork](https://www.wework.com/locations/washington-d-c) offices in the area as great examples. 
 
+
 ### Successful IPOs.
 
 Again this seems relatively explanatory. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
+
 
 ### A greater focus on attracting, cultivating, and retaining young talent.
 
@@ -38,8 +41,7 @@ This is something I firmly believe in and am personally passionate about. Startu
 
 To me this is a great shame. There is so much young local talent from universities and even from the high school level in the DMV that remains untapped. This is one of the main reasons why I founded [DCXP](http://www.joindcxp.org), and I [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
 
-![DC]({{ site.url }}/public/washington.jpg){: .center-image }
--- Image of DCXP -- 
+![DC]({{ site.url }}/public/dcxp.jpg){: .center-image }
 
 DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional product that quickly is energizing and testament to the talent available in the DMV.
 
