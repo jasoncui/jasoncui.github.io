@@ -12,7 +12,7 @@ permalink: my-hope-for-DC-tech
 
 ### Introduction 
 
-A bit of background to understand where I'm coming from. I'm currently a sophomore at Harvard studying computer science. Born and bred in Northern Virginia, I've worked at both a startup ([PrepFactory](https://www.prepfactory.com/)) and large tech company ([LivingSocial](https://www.livingsocial.com/)) in the capital. I also started my own non-profit ([DCXP](https://www.joindcxp.org)) in the area to cultivate talented high school and college students, an attempt to strengthen DC's tech community from the ground up. 
+A bit of background to understand where I'm coming from. I'm currently a sophomore at Harvard studying computer science. Born and bred in Northern Virginia, I've worked at both a startup ([PrepFactory](https://www.prepfactory.com/)) and large tech company ([LivingSocial](https://www.livingsocial.com/)) in the capital. I also started my own non-profit ([DCXP](http://www.joindcxp.org/)) in the area to cultivate talented high school and college students, an attempt to strengthen DC's tech community from the ground up. 
 
 Through my various work experiences and time networking with entrepreneurs, VCs, and angel investors through DCXP, I've left with mixed feelings. On one hand, I feel a deep sense of **pride and belonging**. It's inspiring to see life-changing innovation and wildly successful companies just steps away from where I grew up. And for that I am extremely grateful. 
 
