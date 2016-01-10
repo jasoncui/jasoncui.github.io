@@ -9,6 +9,7 @@ permalink: my-hope-for-DC-tech
 
 *This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced) perspective.*
 
+
 #### Introduction 
 
 A bit of background to understand where I'm coming from. I'm currently a sophomore at Harvard studying computer science. Born and bred in Northern Virginia, I've worked at both a startup ([PrepFactory](https://www.prepfactory.com/)) and large tech company ([LivingSocial](https://www.livingsocial.com/)) in the capital. I also started my own non-profit ([DCXP](https://www.joindcxp.org)) in the area to cultivate talented high school and college students, an attempt to strengthen DC's tech community from the ground up. 
