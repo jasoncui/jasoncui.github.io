@@ -2,7 +2,7 @@
 layout: post
 title: My Hope for DC Tech in 2016 
 comments: True
-permalink: short-urls-jekyll
+permalink: my-hope-for-DC-tech
 ---
 
 ![DC]({{ site.url }}/public/washington.jpg){: .center-image }
