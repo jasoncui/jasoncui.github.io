@@ -18,10 +18,10 @@ Through my various work experiences and time networking with entrepreneurs, VCs,
 
 On the other hand, I see a lot of room for improvement. I think the DC, Maryland, and Virginia (DMV) area has a lot to offer and is poised to really develop rapidly in the coming years. In the years to follow, I want to see more talented individuals set-up shop in the area and to build great companies, create new jobs, and foster a stronger tech community in what is already a very substantial one. 
 
-Based on my experience, here are a few things I believe would help the area further progress in 2016.
+Here are a few things I believe would help the area further progress in 2016.
 
 
-### More seed funding in DC, Maryland, and Virginia.
+### More seed funding in the DMV.
 
 This is pretty self-explanatory and is the same thought echoed by DC Inno's article. More seed money means more early-stage companies. More early-stage companies means more talent and interest drawn to the area. 	
 
@@ -39,7 +39,7 @@ Again this seems relatively explanatory, and is more of a *fingers crossed* hope
 
 This is something I firmly believe in and am personally passionate about. Startup dogma states that a solid team is one of the most important pillars of a successful company. And for startups just getting off the ground in the area, finding and retaining a long-term team is not always an easy task. From talking to many young entrepreneurs (both personal friends and acquaintances), they describe the current status quo as one where founders in the DC area want to stay close to home, but end up going elsewhere to better attract cofounders and technical talent. A great example is early-stage teams traveling to incubators and accelerators elsewhere, notably [Y Combinator](https://www.ycombinator.com/) and [TechStars](http://www.techstars.com/), and end up relocating as a result. 
 
-To me this is a great shame. There is so much young local talent from universities and even from the high school level in the DMV that remains untapped. This is one of the main reasons why I founded [DCXP](http://www.joindcxp.org), and I [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
+To me this is a great shame. There is so much local talent from universities, even from the high school level in the DMV that remains untapped. This is one of the main reasons why I founded [DCXP](http://www.joindcxp.org) and I [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
 
 ![DC]({{ site.url }}/public/dcxp.jpg){: .center-image }
 *The DCXP team hard at work.*
