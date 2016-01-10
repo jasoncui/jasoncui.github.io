@@ -44,9 +44,9 @@ To me this is a great shame. There is so much local talent from universities, ev
 ![DC]({{ site.url }}/public/dcxp.jpg){: .center-image }
 *The DCXP team hard at work.*
 
-DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional product that quickly is energizing and testament to the talent available in the DMV.
+DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional prototype that quickly is energizing and testament to the talent available in the DMV.
 
-Tapping into this talent in years to come will be a deciding factor for the future success of this community. Hopefully DCXP will continue to thrive in the area, and similar programs will encourage talented students to stick around.
+**Tapping into this talent in years to come will be a deciding factor for the future success of this community.** Hopefully DCXP will continue to thrive in the area, and similar programs will encourage talented students to stick around.
 
 
 ### Continue to fight the preconceived notion that the area is home to only government and contracting. 
