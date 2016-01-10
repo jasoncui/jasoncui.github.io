@@ -16,7 +16,7 @@ A bit of background to understand where I'm coming from. I'm currently a sophomo
 
 Through my various work experiences and time networking with entrepreneurs, VCs, and angel investors through DCXP, I've left with mixed feelings. On one hand, I feel a deep sense of **pride and belonging**. It's inspiring to see life-changing innovation and wildly successful companies just steps away from where I grew up. And for that I am extremely grateful. 
 
-On the other hand, I see a lot of room for improvement. I think the DC, Maryland, and Virginia (DMV) has a lot to offer and is poised to really develop rapidly in the coming years. In the years to follow, I want to see more talented individuals set-up shop in the area and to build great companies, create new jobs, and foster a stronger tech community in what is already a very substantial one. 
+On the other hand, I see a lot of room for improvement. I think the DC, Maryland, and Virginia (DMV) area has a lot to offer and is poised to really develop rapidly in the coming years. In the years to follow, I want to see more talented individuals set-up shop in the area and to build great companies, create new jobs, and foster a stronger tech community in what is already a very substantial one. 
 
 Based on my experience, here are a few things I believe would help the area further progress in 2016.
 
