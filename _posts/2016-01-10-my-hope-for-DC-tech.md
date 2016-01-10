@@ -32,7 +32,7 @@ Regardless, there is definitely room for improvement. A clear solution has not i
 
 ### Successful IPOs.
 
-Again this seems relatively explanatory, and is more of a *fingers crossed* hope than an actionable goal. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
+Again this seems relatively self-explanatory, and is more of a *fingers crossed* hope than an actionable goal. Current sentiment is more negative than positive, but there are rumors of multiple companies potentially IPOing in 2016. Notable ones include [Appian](http://www.appian.com/), [Clarabridge](http://www.clarabridge.com/), [Optoro](http://optoro.com/), [ScienceLogic](https://www.sciencelogic.com/), [Vox Media](http://www.voxmedia.com/) and [SonaType](http://www.sonatype.com/). 
 
 
 ### A greater focus on attracting, cultivating, and retaining young talent.
