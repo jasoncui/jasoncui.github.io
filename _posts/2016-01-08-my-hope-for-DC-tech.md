@@ -40,7 +40,7 @@ This is something I firmly believe in and am personally passionate about. Startu
 To me this is a great shame. There is so much young local talent from universities and even from the high school level in the DMV that remains untapped. This is one of the main reasons why I founded [DCXP](http://www.joindcxp.org), and I [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
 
 ![DC]({{ site.url }}/public/dcxp.jpg){: .center-image }
-*The DCXP team hard at work.*
+*The DCXP team hard at work.*{: .center-image }
 
 DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional product that quickly is energizing and testament to the talent available in the DMV.
 
