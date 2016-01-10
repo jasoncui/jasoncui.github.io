@@ -51,4 +51,4 @@ Tech publications have played a large role in strengthening the sense of communi
 
 ----------
 
-*Comments? Questions? [Contact]({{ site.url }}/contact) me here or [Subscribe](http://www.google.com) to receive updates on new posts.*
+*Comments? Questions? [Contact]({{ site.url }}/contact) me here or [subscribe to my email list](http://www.google.com) to receive updates on new posts.*
