@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-13T17:10:38-05:00</updated>
+ <updated>2016-01-13T19:43:20-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,25 +15,9 @@
  <entry>
    <title>An Analysis of YC Companies</title>
    <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-13T17:10:38-05:00</updated>
+   <updated>2016-01-13T19:43:20-05:00</updated>
    <id>http://jasoncui.me/analysis-of-YC-companies</id>
-   <content type="html">&lt;p&gt;At work I was tasked with creating an internal tool to track and display vital company stats. I knew that meant I would likely be displaying some data in charts and graphs. Thus began my search for an easily customizable data visualization library.&lt;/p&gt;
-
-&lt;p&gt;I perused the roundup of libraries that Google and Stack Overflow offered: &lt;a href=&quot;http://www.highcharts.com/&quot;&gt;Highcharts.js&lt;/a&gt;, &lt;a href=&quot;http://www.flotcharts.org/&quot;&gt;Flot&lt;/a&gt;, &lt;a href=&quot;http://g.raphaeljs.com/&quot;&gt;gRaphael&lt;/a&gt;, &lt;a href=&quot;http://www.jscharts.com/&quot;&gt;jsCharts&lt;/a&gt;, and finally &lt;a href=&quot;http://d3js.org/&quot;&gt;d3.js&lt;/a&gt; (I hadn’t seen &lt;a href=&quot;http://www.chartjs.org/&quot;&gt;Chart.js&lt;/a&gt; at the time, but it looks pretty nice). I won’t go into comparisons on the various libraries, but I will tell you why I chose d3.js:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;easy to use (after the beginner’s hump)&lt;/li&gt;
-  &lt;li&gt;uses svg: scalable &amp;amp; widely supported&lt;/li&gt;
-  &lt;li&gt;completely customizable&lt;/li&gt;
-  &lt;li&gt;flexible &amp;amp; extendable&lt;/li&gt;
-  &lt;li&gt;extremely powerful&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mbostock/d3/wiki/Gallery&quot;&gt;lots of examples&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bl.ocks.org/mbostock&quot;&gt;even more examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At the top of this article I’ve inserted a simple bar chart as an example. You can see &lt;a href=&quot;http://dribbble.com/shots/966448-Monitor-fullview?list=users&quot;&gt;some screenshots&lt;/a&gt; of actual real-time data visualizations I created for our company monitor. Let’s take a look at how D3 makes these animating bar charts:&lt;/p&gt;
-
-&lt;p&gt;First, let’s drop in a few simple styles:&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; is perhaps the most well-known startup seed accelerator in the world.&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2em&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;

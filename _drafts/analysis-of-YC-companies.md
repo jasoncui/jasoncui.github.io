@@ -6,21 +6,7 @@ permalink: analysis-of-YC-companies
 category: [tech]
 ---
 
-At work I was tasked with creating an internal tool to track and display vital company stats. I knew that meant I would likely be displaying some data in charts and graphs. Thus began my search for an easily customizable data visualization library.
-
-I perused the roundup of libraries that Google and Stack Overflow offered: [Highcharts.js](http://www.highcharts.com/), [Flot](http://www.flotcharts.org/), [gRaphael](http://g.raphaeljs.com/), [jsCharts](http://www.jscharts.com/), and finally [d3.js](http://d3js.org/) (I hadn't seen [Chart.js](http://www.chartjs.org/) at the time, but it looks pretty nice). I won't go into comparisons on the various libraries, but I will tell you why I chose d3.js:
-
-- easy to use (after the beginner's hump)
-- uses svg: scalable & widely supported
-- completely customizable
-- flexible & extendable
-- extremely powerful
-- [lots of examples](https://github.com/mbostock/d3/wiki/Gallery)
-- [even more examples](http://bl.ocks.org/mbostock)
-
-At the top of this article I've inserted a simple bar chart as an example. You can see [some screenshots](http://dribbble.com/shots/966448-Monitor-fullview?list=users) of actual real-time data visualizations I created for our company monitor. Let's take a look at how D3 makes these animating bar charts:
-
-First, let's drop in a few simple styles:
+*[Y Combinator](http://www.ycombinator.com/) is perhaps the most well-known startup seed accelerator in the world.*
 
 {% highlight css %}
 svg {
