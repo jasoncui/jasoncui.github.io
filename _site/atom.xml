@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-13T19:44:11-05:00</updated>
+ <updated>2016-01-14T15:50:48-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,9 +15,9 @@
  <entry>
    <title>An Analysis of YC Companies</title>
    <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-13T19:44:10-05:00</updated>
+   <updated>2016-01-14T15:50:48-05:00</updated>
    <id>http://jasoncui.me/analysis-of-YC-companies</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; is perhaps the most well-known startup seed accelerator in the world. They make $120k seed investments in small groups of startups twice a year in Silicon Valley.&lt;/em&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2em&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -131,96 +131,81 @@
   &lt;span class=&quot;nx&quot;&gt;barChart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;final&quot;&gt;
-  &lt;figcaption&gt;The final result&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;div id=&quot;container&quot; style=&quot;min-width: 310px; height: 400px; margin: 0 auto&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://codepen.io/mshwery/pen/uCBbn&quot; class=&quot;codepen&quot; target=&quot;_blank&quot;&gt;Check out the code in action on CodePen&lt;/a&gt;&lt;/p&gt;
+&lt;script&gt;
+	$(function () {
+    $(&#39;#container&#39;).highcharts({
+        chart: {
+            type: &#39;column&#39;
+        },
+        title: {
+            text: &#39;Monthly Average Rainfall&#39;
+        },
+        subtitle: {
+            text: &#39;Source: WorldClimate.com&#39;
+        },
+        xAxis: {
+            categories: [
+                &#39;Jan&#39;,
+                &#39;Feb&#39;,
+                &#39;Mar&#39;,
+                &#39;Apr&#39;,
+                &#39;May&#39;,
+                &#39;Jun&#39;,
+                &#39;Jul&#39;,
+                &#39;Aug&#39;,
+                &#39;Sep&#39;,
+                &#39;Oct&#39;,
+                &#39;Nov&#39;,
+                &#39;Dec&#39;
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: &#39;Rainfall (mm)&#39;
+            }
+        },
+        tooltip: {
+            headerFormat: &#39;&lt;span style=&quot;font-size:10px&quot;&gt;{point.key}&lt;/span&gt;&lt;table&gt;&#39;,
+            pointFormat: &#39;&lt;tr&gt;&lt;td style=&quot;color:{series.color};padding:0&quot;&gt;{series.name}: &lt;/td&gt;&#39; +
+                &#39;&lt;td style=&quot;padding:0&quot;&gt;&lt;b&gt;{point.y:.1f} mm&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&#39;,
+            footerFormat: &#39;&lt;/table&gt;&#39;,
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: &#39;Tokyo&#39;,
+            data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
 
-&lt;style&gt;
-  svg {
-    font: 10px sans-serif;
-  }
+        }, {
+            name: &#39;New York&#39;,
+            data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
 
-  .foreground {
-    fill: #2D6A99;
-  }
+        }, {
+            name: &#39;London&#39;,
+            data: [48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2]
 
-  .background {
-    fill: #eee;
-  }
-&lt;/style&gt;
+        }, {
+            name: &#39;Berlin&#39;,
+            data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
 
-&lt;script src=&quot;http://d3js.org/d3.v3.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-
-  var n = 10,
-      random = function() { return Math.floor(Math.random() * 100); },
-      data = d3.range(n).map(random);
-  
-  var barChart = {
-    init: function(el) {
-      this.height = 80;
-      this.width = 220;
-      this.padding = 12;
-      barWidth = Math.floor((this.width - (this.padding * (data.length - 1))) / data.length);
-      barHeight = this.height;
-
-      this.svg = d3.select(el).insert(&#39;svg&#39;, &#39;:first-child&#39;)
-        .attr(&#39;width&#39;, this.width)
-        .attr(&quot;height&quot;, this.height);
-
-      this.draw();
-    },
-
-    draw: function() {
-      var self = this;
-
-      this.meters = this.svg
-        .append(&quot;g&quot;)
-          .attr(&quot;class&quot;, &quot;meter&quot;)
-          .selectAll(&quot;rect&quot;)
-            .data(data)
-            .enter()
-            .append(&#39;g&#39;)
-              .attr(&quot;class&quot;, &quot;bar&quot;);
-
-      this.drawBar().attr(&quot;class&quot;, &quot;background&quot;).attr(&quot;y&quot;, 0).attr(&quot;height&quot;, barHeight);
-      this.drawBar().attr(&quot;class&quot;, &quot;foreground&quot;).attr(&quot;y&quot;, barHeight).attr(&quot;height&quot;, 0);
-
-      setInterval(function() {
-        data = d3.range(n).map(random);
-        self.update();
-      }, 2000);
-    },
-
-    update: function () {
-        var self = this;
-        d3.selectAll(&quot;rect.foreground&quot;).each(self.animate);
-    },
-
-    animate: function (d, i) {
-      var total = data[i];
-      var bar = d3.select(this);
-      if (barHeight - total != bar.attr(&quot;y&quot;)) {
-        bar.transition().duration(1500).attr(&quot;height&quot;, total).attr(&quot;y&quot;, barHeight - total);
-      }
-    },
-
-    drawBar: function () {
-      var self = this;
-
-      return this.meters.append(&quot;rect&quot;)
-        .attr(&quot;x&quot;, function (d, i) {
-          return i * (barWidth + self.padding);
-        })
-        .attr(&quot;width&quot;, barWidth);
-    }
-  }
-
-  barChart.init(&#39;figure.final&#39;);
+        }]
+    });
+});
 &lt;/script&gt;
+
+&lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;
 
 </content>
  </entry>
