@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-14T15:51:24-05:00</updated>
+ <updated>2016-01-14T15:52:45-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>An Analysis of YC Companies</title>
    <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-14T15:51:24-05:00</updated>
+   <updated>2016-01-14T15:52:44-05:00</updated>
    <id>http://jasoncui.me/analysis-of-YC-companies</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.&lt;/em&gt;&lt;/p&gt;
 
@@ -90,6 +90,8 @@
     });
 });
 &lt;/script&gt;
+
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
 
