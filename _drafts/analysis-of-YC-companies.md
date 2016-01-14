@@ -6,7 +6,7 @@ permalink: analysis-of-YC-companies
 category: [tech]
 ---
 
-*[Y Combinator](http://www.ycombinator.com/) is perhaps the most well-known startup seed accelerator in the world.*
+*[Y Combinator](http://www.ycombinator.com/) is perhaps the most well-known startup seed accelerator in the world. They make $120k seed investments in small groups of startups twice a year in Silicon Valley.*
 
 {% highlight css %}
 svg {
