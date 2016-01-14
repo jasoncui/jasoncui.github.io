@@ -66,121 +66,9 @@
       </a>
     </h1>
 
-    <time datetime="2016-01-14T15:50:48-05:00" class="post-date">14 Jan 2016</time>
+    <time datetime="2016-01-14T15:51:24-05:00" class="post-date">14 Jan 2016</time>
 
     <p><em><a href="http://www.ycombinator.com/">Y Combinator</a> (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.</em></p>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">svg</span> <span class="p">{</span>
-  <span class="k">margin</span><span class="o">:</span> <span class="m">2em</span> <span class="m">0</span><span class="p">;</span>
-  <span class="k">font</span><span class="o">:</span> <span class="m">10px</span> <span class="k">sans-serif</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nc">.foreground</span> <span class="p">{</span>
-  <span class="n">fill</span><span class="o">:</span> <span class="m">#2D6A99</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nc">.background</span> <span class="p">{</span>
-  <span class="n">fill</span><span class="o">:</span> <span class="m">#eee</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-
-<p>And of course we need to include the d3.js library:</p>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;http://d3js.org/d3.v3.min.js&quot;</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
-
-<p>Now, let’s get some basic moving parts. We need to setup what a bar is and establish initial variables:</p>
-
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="c1">// how many bars?</span>
-    <span class="nx">random</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">);</span> <span class="p">},</span> <span class="c1">// randomize some numbers for data</span>
-    <span class="nx">data</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">range</span><span class="p">(</span><span class="nx">n</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nx">random</span><span class="p">);</span> <span class="c1">// an array of randomized datapoints</span>
-
-<span class="kd">var</span> <span class="nx">barChart</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="mi">220</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">padding</span> <span class="o">=</span> <span class="mi">12</span><span class="p">;</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">el</span> <span class="o">=</span> <span class="s2">&quot;article header&quot;</span><span class="p">;</span> <span class="c1">// where we&#39;ll put our svg </span>
-
-    <span class="c1">// calculate the bar width from the total chart width</span>
-    <span class="nx">barWidth</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">((</span><span class="k">this</span><span class="p">.</span><span class="nx">width</span> <span class="o">-</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">padding</span> <span class="o">*</span> <span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)))</span> <span class="o">/</span> <span class="nx">data</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span>
-    <span class="nx">barHeight</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">height</span> <span class="o">-</span> <span class="mi">20</span><span class="p">;</span>
-
-
-    <span class="k">this</span><span class="p">.</span><span class="nx">svg</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">).</span><span class="nx">insert</span><span class="p">(</span><span class="s1">&#39;svg&#39;</span><span class="p">,</span> <span class="s1">&#39;:first-child&#39;</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;width&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">width</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;height&quot;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">height</span><span class="p">);</span>
-
-  <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
-
-<p>Now, we have to actually render it:</p>
-
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">barChart</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/***/</span> <span class="p">},</span>
-
-  <span class="c1">// draw our svg container</span>
-  <span class="nx">draw</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">meters</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">svg</span>
-      <span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;g&quot;</span><span class="p">)</span>
-        <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;meter&quot;</span><span class="p">)</span>
-        <span class="p">.</span><span class="nx">selectAll</span><span class="p">(</span><span class="s2">&quot;rect&quot;</span><span class="p">)</span>
-          <span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
-          <span class="p">.</span><span class="nx">enter</span><span class="p">()</span>
-          <span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s1">&#39;g&#39;</span><span class="p">)</span>
-            <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;bar&quot;</span><span class="p">);</span>
-
-    <span class="k">this</span><span class="p">.</span><span class="nx">drawBar</span><span class="p">().</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;background&quot;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;height&quot;</span><span class="p">,</span> <span class="nx">barHeight</span><span class="p">);</span>
-    <span class="k">this</span><span class="p">.</span><span class="nx">drawBar</span><span class="p">().</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;foreground&quot;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="nx">barHeight</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;height&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-  <span class="p">},</span>
-
-  <span class="c1">// this actually draws a bar</span>
-  <span class="nx">drawBar</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-
-    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">meters</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">&quot;rect&quot;</span><span class="p">)</span>
-      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">return</span> <span class="nx">i</span> <span class="o">*</span> <span class="p">(</span><span class="nx">barWidth</span> <span class="o">+</span> <span class="nx">self</span><span class="p">.</span><span class="nx">padding</span><span class="p">);</span>
-      <span class="p">})</span>
-      <span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;width&quot;</span><span class="p">,</span> <span class="nx">barWidth</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="c1">// initialize the bar chart!</span>
-<span class="nx">barChart</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span></code></pre></div>
-
-<p>Ok. So this is what we’ve got so far:</p>
-
-<pre class="codepen" data-height="300" data-type="result" data-href="wakhK" data-user="mshwery" data-safe="true"><code></code><a href="http://codepen.io/mshwery/pen/wakhK">Check out this Pen!</a></pre>
-<script async="" src="http://codepen.io/assets/embed/ei.js"></script>
-
-<p>Alright, now let’s animate this shiz.</p>
-
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">barChart</span> <span class="o">=</span> <span class="p">{</span>
-
-  <span class="nx">init</span><span class="o">:</span>     <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/***/</span> <span class="p">},</span>
-  <span class="nx">draw</span><span class="o">:</span>     <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/***/</span> <span class="p">},</span>
-  <span class="nx">drawBar</span><span class="o">:</span>  <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="cm">/***/</span> <span class="p">},</span>
-
-  <span class="nx">update</span><span class="o">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-      <span class="kd">var</span> <span class="nx">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
-      <span class="c1">// select the foreground bars and call the animate method on them</span>
-      <span class="nx">d3</span><span class="p">.</span><span class="nx">selectAll</span><span class="p">(</span><span class="s2">&quot;rect.foreground&quot;</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="nx">self</span><span class="p">.</span><span class="nx">animate</span><span class="p">);</span>
-  <span class="p">},</span>
-
-  <span class="nx">animate</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">d</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">total</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
-    <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">barHeight</span> <span class="o">-</span> <span class="nx">total</span> <span class="o">!=</span> <span class="nx">bar</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">))</span> <span class="p">{</span>
-      <span class="nx">bar</span><span class="p">.</span><span class="nx">transition</span><span class="p">().</span><span class="nx">duration</span><span class="p">(</span><span class="mi">1500</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;height&quot;</span><span class="p">,</span> <span class="nx">total</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="nx">barHeight</span> <span class="o">-</span> <span class="nx">total</span><span class="p">);</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="c1">// In this example, every couple seconds update the bar chart with new numbers!</span>
-<span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nx">data</span> <span class="o">=</span> <span class="nx">d3</span><span class="p">.</span><span class="nx">range</span><span class="p">(</span><span class="nx">n</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="nx">random</span><span class="p">);</span> <span class="c1">// get new random numbers</span>
-  <span class="nx">barChart</span><span class="p">.</span><span class="nx">update</span><span class="p">();</span>
-<span class="p">},</span> <span class="mi">2000</span><span class="p">);</span></code></pre></div>
 
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
@@ -287,7 +175,7 @@
 </script>
       
       <small>
-        &copy; <time datetime="2016-01-14T15:50:48-05:00">2016</time> Jason Cui. ♥ from Washington D.C. and Cambridge, MA.
+        &copy; <time datetime="2016-01-14T15:51:24-05:00">2016</time> Jason Cui. ♥ from Washington D.C. and Cambridge, MA.
       </small>
     </footer>
   </div>
