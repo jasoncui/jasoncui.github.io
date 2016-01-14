@@ -11,7 +11,6 @@ category: [tech]
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <script>
-	$(function () {
     $('#container').highcharts({
         chart: {
             type: 'column'
@@ -77,7 +76,6 @@ category: [tech]
 
         }]
     });
-});
 </script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
