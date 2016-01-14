@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-14T16:05:06-05:00</updated>
+ <updated>2016-01-14T16:06:28-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>An Analysis of YC Companies</title>
    <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-14T16:05:05-05:00</updated>
+   <updated>2016-01-14T16:06:28-05:00</updated>
    <id>http://jasoncui.me/analysis-of-YC-companies</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.&lt;/em&gt;&lt;/p&gt;
 
@@ -37,17 +37,17 @@ $(&#39;#container&#39;).highcharts({
             type: &#39;column&#39;
         },
         title: {
-            text: &#39;Browser market shares. January, 2015 to May, 2015&#39;
+            text: &#39;Analysis of Y Combinator Companies&#39;
         },
         subtitle: {
-            text: &#39;Click the columns to view versions. Source: &lt;a href=&quot;http://netmarketshare.com&quot;&gt;netmarketshare.com&lt;/a&gt;.&#39;
+            text: &#39;Click the columns to view exact percentages.&#39;
         },
         xAxis: {
-            type: &#39;category&#39;
+            type: &#39;Category&#39;
         },
         yAxis: {
             title: {
-                text: &#39;Total percent market share&#39;
+                text: &#39;Percent&#39;
             }
 
         },

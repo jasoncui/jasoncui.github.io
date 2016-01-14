@@ -24,17 +24,17 @@ $('#container').highcharts({
             type: 'column'
         },
         title: {
-            text: 'Browser market shares. January, 2015 to May, 2015'
+            text: 'Analysis of Y Combinator Companies'
         },
         subtitle: {
-            text: 'Click the columns to view versions. Source: <a href="http://netmarketshare.com">netmarketshare.com</a>.'
+            text: 'Click the columns to view exact percentages.'
         },
         xAxis: {
-            type: 'category'
+            type: 'Category'
         },
         yAxis: {
             title: {
-                text: 'Total percent market share'
+                text: 'Percent'
             }
 
         },
