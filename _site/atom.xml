@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-14T15:54:38-05:00</updated>
+ <updated>2016-01-14T16:05:06-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>An Analysis of YC Companies</title>
    <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-14T15:54:37-05:00</updated>
+   <updated>2016-01-14T16:05:05-05:00</updated>
    <id>http://jasoncui.me/analysis-of-YC-companies</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.&lt;/em&gt;&lt;/p&gt;
 
@@ -32,70 +32,256 @@
 &lt;/div&gt;
 
 &lt;script type=&quot;text/javascript&quot;&gt;
- $(&#39;#container&#39;).highcharts({
+$(&#39;#container&#39;).highcharts({
         chart: {
             type: &#39;column&#39;
         },
         title: {
-            text: &#39;Monthly Average Rainfall&#39;
+            text: &#39;Browser market shares. January, 2015 to May, 2015&#39;
         },
         subtitle: {
-            text: &#39;Source: WorldClimate.com&#39;
+            text: &#39;Click the columns to view versions. Source: &lt;a href=&quot;http://netmarketshare.com&quot;&gt;netmarketshare.com&lt;/a&gt;.&#39;
         },
         xAxis: {
-            categories: [
-                &#39;Jan&#39;,
-                &#39;Feb&#39;,
-                &#39;Mar&#39;,
-                &#39;Apr&#39;,
-                &#39;May&#39;,
-                &#39;Jun&#39;,
-                &#39;Jul&#39;,
-                &#39;Aug&#39;,
-                &#39;Sep&#39;,
-                &#39;Oct&#39;,
-                &#39;Nov&#39;,
-                &#39;Dec&#39;
-            ],
-            crosshair: true
+            type: &#39;category&#39;
         },
         yAxis: {
-            min: 0,
             title: {
-                text: &#39;Rainfall (mm)&#39;
+                text: &#39;Total percent market share&#39;
             }
+
         },
-        tooltip: {
-            headerFormat: &#39;&lt;span style=&quot;font-size:10px&quot;&gt;{point.key}&lt;/span&gt;&lt;table&gt;&#39;,
-            pointFormat: &#39;&lt;tr&gt;&lt;td style=&quot;color:{series.color};padding:0&quot;&gt;{series.name}: &lt;/td&gt;&#39; +
-                &#39;&lt;td style=&quot;padding:0&quot;&gt;&lt;b&gt;{point.y:.1f} mm&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&#39;,
-            footerFormat: &#39;&lt;/table&gt;&#39;,
-            shared: true,
-            useHTML: true
+        legend: {
+            enabled: false
         },
         plotOptions: {
-            column: {
-                pointPadding: 0.2,
-                borderWidth: 0
+            series: {
+                borderWidth: 0,
+                dataLabels: {
+                    enabled: true,
+                    format: &#39;{point.y:.1f}%&#39;
+                }
             }
         },
+
+        tooltip: {
+            headerFormat: &#39;&lt;span style=&quot;font-size:11px&quot;&gt;{series.name}&lt;/span&gt;&lt;br&gt;&#39;,
+            pointFormat: &#39;&lt;span style=&quot;color:{point.color}&quot;&gt;{point.name}&lt;/span&gt;: &lt;b&gt;{point.y:.2f}%&lt;/b&gt; of total&lt;br/&gt;&#39;
+        },
+
         series: [{
-            name: &#39;Tokyo&#39;,
-            data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
-
-        }, {
-            name: &#39;New York&#39;,
-            data: [83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3]
-
-        }, {
-            name: &#39;London&#39;,
-            data: [48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2]
-
-        }, {
-            name: &#39;Berlin&#39;,
-            data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
-
-        }]
+            name: &#39;Brands&#39;,
+            colorByPoint: true,
+            data: [{
+                name: &#39;Microsoft Internet Explorer&#39;,
+                y: 56.33,
+                drilldown: &#39;Microsoft Internet Explorer&#39;
+            }, {
+                name: &#39;Chrome&#39;,
+                y: 24.03,
+                drilldown: &#39;Chrome&#39;
+            }, {
+                name: &#39;Firefox&#39;,
+                y: 10.38,
+                drilldown: &#39;Firefox&#39;
+            }, {
+                name: &#39;Safari&#39;,
+                y: 4.77,
+                drilldown: &#39;Safari&#39;
+            }, {
+                name: &#39;Opera&#39;,
+                y: 0.91,
+                drilldown: &#39;Opera&#39;
+            }, {
+                name: &#39;Proprietary or Undetectable&#39;,
+                y: 0.2,
+                drilldown: null
+            }]
+        }],
+        drilldown: {
+            series: [{
+                name: &#39;Microsoft Internet Explorer&#39;,
+                id: &#39;Microsoft Internet Explorer&#39;,
+                data: [
+                    [
+                        &#39;v11.0&#39;,
+                        24.13
+                    ],
+                    [
+                        &#39;v8.0&#39;,
+                        17.2
+                    ],
+                    [
+                        &#39;v9.0&#39;,
+                        8.11
+                    ],
+                    [
+                        &#39;v10.0&#39;,
+                        5.33
+                    ],
+                    [
+                        &#39;v6.0&#39;,
+                        1.06
+                    ],
+                    [
+                        &#39;v7.0&#39;,
+                        0.5
+                    ]
+                ]
+            }, {
+                name: &#39;Chrome&#39;,
+                id: &#39;Chrome&#39;,
+                data: [
+                    [
+                        &#39;v40.0&#39;,
+                        5
+                    ],
+                    [
+                        &#39;v41.0&#39;,
+                        4.32
+                    ],
+                    [
+                        &#39;v42.0&#39;,
+                        3.68
+                    ],
+                    [
+                        &#39;v39.0&#39;,
+                        2.96
+                    ],
+                    [
+                        &#39;v36.0&#39;,
+                        2.53
+                    ],
+                    [
+                        &#39;v43.0&#39;,
+                        1.45
+                    ],
+                    [
+                        &#39;v31.0&#39;,
+                        1.24
+                    ],
+                    [
+                        &#39;v35.0&#39;,
+                        0.85
+                    ],
+                    [
+                        &#39;v38.0&#39;,
+                        0.6
+                    ],
+                    [
+                        &#39;v32.0&#39;,
+                        0.55
+                    ],
+                    [
+                        &#39;v37.0&#39;,
+                        0.38
+                    ],
+                    [
+                        &#39;v33.0&#39;,
+                        0.19
+                    ],
+                    [
+                        &#39;v34.0&#39;,
+                        0.14
+                    ],
+                    [
+                        &#39;v30.0&#39;,
+                        0.14
+                    ]
+                ]
+            }, {
+                name: &#39;Firefox&#39;,
+                id: &#39;Firefox&#39;,
+                data: [
+                    [
+                        &#39;v35&#39;,
+                        2.76
+                    ],
+                    [
+                        &#39;v36&#39;,
+                        2.32
+                    ],
+                    [
+                        &#39;v37&#39;,
+                        2.31
+                    ],
+                    [
+                        &#39;v34&#39;,
+                        1.27
+                    ],
+                    [
+                        &#39;v38&#39;,
+                        1.02
+                    ],
+                    [
+                        &#39;v31&#39;,
+                        0.33
+                    ],
+                    [
+                        &#39;v33&#39;,
+                        0.22
+                    ],
+                    [
+                        &#39;v32&#39;,
+                        0.15
+                    ]
+                ]
+            }, {
+                name: &#39;Safari&#39;,
+                id: &#39;Safari&#39;,
+                data: [
+                    [
+                        &#39;v8.0&#39;,
+                        2.56
+                    ],
+                    [
+                        &#39;v7.1&#39;,
+                        0.77
+                    ],
+                    [
+                        &#39;v5.1&#39;,
+                        0.42
+                    ],
+                    [
+                        &#39;v5.0&#39;,
+                        0.3
+                    ],
+                    [
+                        &#39;v6.1&#39;,
+                        0.29
+                    ],
+                    [
+                        &#39;v7.0&#39;,
+                        0.26
+                    ],
+                    [
+                        &#39;v6.2&#39;,
+                        0.17
+                    ]
+                ]
+            }, {
+                name: &#39;Opera&#39;,
+                id: &#39;Opera&#39;,
+                data: [
+                    [
+                        &#39;v12.x&#39;,
+                        0.34
+                    ],
+                    [
+                        &#39;v28&#39;,
+                        0.24
+                    ],
+                    [
+                        &#39;v27&#39;,
+                        0.17
+                    ],
+                    [
+                        &#39;v29&#39;,
+                        0.16
+                    ]
+                ]
+            }]
+        }
     });
 
 &lt;/script&gt;
