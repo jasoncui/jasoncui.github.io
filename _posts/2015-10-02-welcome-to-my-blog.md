@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome To My Blog
+category: [fitness]
 ---
 
 Welcome to my site! My name is Jason Cui and I am a sophomore at Harvard studying computer science. I am passionate about technology, scientific discovery, and entrepreneurship. This site is a collection of my projects, thoughts, and random materials I find interesting.
