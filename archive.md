@@ -10,11 +10,13 @@ title: Archive
 {% endfor %}
 
 ## Tech
+
  {% for post in site.categories['tech'] limit:1 %}
     <a href="{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 
 ## Fitness
+
   {% for post in site.categories['fitness'] limit:1 %}
     <a href="{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
