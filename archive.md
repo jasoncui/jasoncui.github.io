@@ -9,14 +9,13 @@ title: Archive
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
 {% endfor %}
 
-## Tech
-
+## Tech 
  {% for post in site.categories['tech'] limit:1 %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
   {% endfor %}
 
 ## Fitness
 
   {% for post in site.categories['fitness'] limit:1 %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
   {% endfor %}
