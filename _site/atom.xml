@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-14T16:06:28-05:00</updated>
+ <updated>2016-01-19T15:14:39-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -436,9 +436,9 @@ or
  
  <entry>
    <title>Welcome To My Blog</title>
-   <link href="http://jasoncui.me/2015/10/02/welcome-to-my-blog/"/>
+   <link href="http://jasoncui.me/fitness/2015/10/02/welcome-to-my-blog/"/>
    <updated>2015-10-02T00:00:00-04:00</updated>
-   <id>http://jasoncui.me/2015/10/02/welcome-to-my-blog</id>
+   <id>http://jasoncui.me/fitness/2015/10/02/welcome-to-my-blog</id>
    <content type="html">&lt;p&gt;Welcome to my site! My name is Jason Cui and I am a sophomore at Harvard studying computer science. I am passionate about technology, scientific discovery, and entrepreneurship. This site is a collection of my projects, thoughts, and random materials I find interesting.&lt;/p&gt;
 
 &lt;p&gt;Feel free to reach out on my &lt;a href=&quot;http://jasoncui.me/contact&quot;&gt;contact page&lt;/a&gt; or through my social media handles below.&lt;/p&gt;
