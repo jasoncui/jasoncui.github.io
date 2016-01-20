@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-20T12:56:27-05:00</updated>
+ <updated>2016-01-20T12:58:36-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>DC's Road to Become a Startup Hub</title>
    <link href="http://jasoncui.me/dcs-road-to-startup-hub"/>
-   <updated>2016-01-20T12:56:27-05:00</updated>
+   <updated>2016-01-20T12:58:36-05:00</updated>
    <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This post was inspired by a series of essays published by Paul Graham on the idea of startup hubs.&lt;/em&gt;&lt;/p&gt;
 
@@ -24,6 +24,10 @@
 &lt;p&gt;&lt;a href=&quot;http://paulgraham.com/startuphubs.html&quot;&gt;Why to Move to a Startup Hub&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://paulgraham.com/hubs.html&quot;&gt;Why Startup Hubs Work&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The problem is not that most towns kill startups. It’s that death is the default for startups, and most towns don’t save them. Instead of thinking of most places as being sprayed with startupicide, it’s more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
