@@ -10,6 +10,8 @@ category: [tech]
 
 [How to Be Silicon Valley](http://paulgraham.com/siliconvalley.html)
 
+-----
+
 [Why to Move to a Startup Hub](http://paulgraham.com/startuphubs.html)
 
 -----
