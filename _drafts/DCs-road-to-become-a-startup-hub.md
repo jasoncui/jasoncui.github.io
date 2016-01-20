@@ -6,6 +6,7 @@ permalink: dcs-road-to-startup-hub
 category: [tech]
 ---
 
+*This post was inspired by a series of essays published by Paul Graham on the idea of startup hubs.*
 [How to Be Silicon Valley](http://paulgraham.com/siliconvalley.html)
 
 [Why to Move to a Startup Hub](http://paulgraham.com/startuphubs.html)
