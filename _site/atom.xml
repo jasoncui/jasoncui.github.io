@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-20T12:56:17-05:00</updated>
+ <updated>2016-01-20T12:56:27-05:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,10 +15,11 @@
  <entry>
    <title>DC's Road to Become a Startup Hub</title>
    <link href="http://jasoncui.me/dcs-road-to-startup-hub"/>
-   <updated>2016-01-20T12:56:16-05:00</updated>
+   <updated>2016-01-20T12:56:27-05:00</updated>
    <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;This post was inspired by a series of essays published by Paul Graham on the idea of startup hubs.&lt;/em&gt;
-&lt;a href=&quot;http://paulgraham.com/siliconvalley.html&quot;&gt;How to Be Silicon Valley&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;This post was inspired by a series of essays published by Paul Graham on the idea of startup hubs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://paulgraham.com/siliconvalley.html&quot;&gt;How to Be Silicon Valley&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://paulgraham.com/startuphubs.html&quot;&gt;Why to Move to a Startup Hub&lt;/a&gt;&lt;/p&gt;
 
