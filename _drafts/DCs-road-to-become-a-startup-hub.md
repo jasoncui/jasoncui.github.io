@@ -8,7 +8,7 @@ category: [tech]
 
 ![DC2]({{ site.url }}/public/dc2.jpg){: .center-image }
 
-*This post was inspired by a series of essays published by Paul Graham on the idea of startup hubs.*
+*Paul Graham has published a [wonderful series of essays](http://paulgraham.com/articles.html) on the topic of startup hubs. The following elaborates on his ideas, their validity, and applicability to the DC tech scene.*
 
 [How to Be Silicon Valley](http://paulgraham.com/siliconvalley.html)
 
