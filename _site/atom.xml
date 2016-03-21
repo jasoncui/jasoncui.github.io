@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-03-20T23:03:40-04:00</updated>
+ <updated>2016-03-20T23:04:59-04:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,34 @@
  <entry>
    <title>Instagram's Major Switch</title>
    <link href="http://jasoncui.me/dcs-road-to-startup-hub"/>
-   <updated>2016-03-20T23:03:40-04:00</updated>
+   <updated>2016-03-22T00:00:00-04:00</updated>
+   <id>http://jasoncui.me/instagrams-major-change</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;DC2&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that Instagram would be switching from its traditional.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From my personal experiences and analysis, here are a few ways I can think of in which the change affects the current status quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My intial reaction is one of surprise, and a bit of dissapointment&lt;/li&gt;
+  &lt;li&gt;Chronological to algorithmic, Facebook and Twitter have already switched&lt;/li&gt;
+  &lt;li&gt;Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)&lt;/li&gt;
+  &lt;li&gt;Option of on/off for reverse chronological &lt;/li&gt;
+  &lt;li&gt;Tough for brands - many small businesses rely on Instagram for marketing, now they will have to buy to seem relevant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The problem is not that most towns kill startups. It’s that death is the default for startups, and most towns don’t save them. Instead of thinking of most places as being sprayed with startupicide, it’s more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Instagram's Major Switch</title>
+   <link href="http://jasoncui.me/dcs-road-to-startup-hub"/>
+   <updated>2016-03-20T23:04:14-04:00</updated>
    <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;DC2&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
