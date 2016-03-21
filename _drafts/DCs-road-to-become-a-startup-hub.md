@@ -2,22 +2,60 @@
 layout: post
 title: Instagram's Major Switch
 comments: True
-permalink: dcs-road-to-startup-hub
+permalink: instagrams-major-switch
 category: [tech]
 ---
 
-![DC2]({{ site.url }}/public/insta.jpg){: .center-image }
+![Instagram]({{ site.url }}/public/insta.jpg){: .center-image }
 
-*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that Instagram would be switching from its traditional.*
+*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that [Instagram](https://www.instagram.com) might be switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.*
 
-From my personal experiences and analysis, here are a few ways I can think of in which the change affects the current status quo.
+### The Switch
 
-* My intial reaction is one of surprise, and a bit of dissapointment
-* Chronological to algorithmic, Facebook and Twitter have already switched
+Instagram's announcement of change has already come at a surprise to many users (me included). For those not familiar, Instagram currently utilizes a simple, one-view feed in which pictures are populated in reverse chronological order - the most recent pictures posted are shown first.
+
+This method has been a staple of Instagram's. The new method would scratch the timeline feel and instead choose which pictures to show to users based on predicted relevancy. More specifically, populating:
+
+>  “based on the likelihood you’ll be interested in the content, your relationship with the person posting, and the timeliness of the post.”
+
+The reasoning behind the change? [Kevin Systrom](https://twitter.com/kevin), CEO of Instagram, claims:
+
+> “On average, people miss about 70% of the posts in their Instagram feed. What this is about is making sure that the 30% you see is the best 30% possible.”
+
+This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it. However, predictably, there's already been a lot of vocal criticism:
+
+![Instagram]({{ site.url }}/public/instacomment1.png){: .center-image }
+
+**Screenshots here**
+
+Here's how I think the change will affect the current status quo.
+
+### A push forward to follow the lead of other social media giants. 
+
+Facebook first switched from a similar reverse chronological feed to a new feed based on "popularity" in 2009. Facebook received similar outcry at the change, resulting in a change in 2011 that combined the traditional feed with the newer algorithmic feed.
+
+Twitter recently [made the same change](https://blog.twitter.com/2016/never-miss-important-tweets-from-people-you-follow). Instagram would be following right in the footsteps of the two largest social media platforms. 
+
+### Less emphasis on users with smaller followings and non-frequent posts.
 * Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)
-* Option of on/off for reverse chronological 
-* Tough for brands - many small businesses rely on Instagram for marketing, now they will have to buy to seem relevant
+* Gets rid of real-time interactions
 
------
+Instagram claims that the algorithm will work with a combination of ratio with relevancy to surface posts most relevant to the individual user. I personally am a bit doubtful of this method - the same method used by Facebook tends to surface content from more frequent or popular posters.
 
-> The problem is not that most towns kill startups. It's that death is the default for startups, and most towns don't save them. Instead of thinking of most places as being sprayed with startupicide, it's more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.
+One thing I've always personally enjoyed about Instagram is *catching those posts from less frequent posters*. Because often times those posts end up being the most interesting.
+
+### A big hit to brands, especially smaller businesses. 
+
+The change will have a large impact on brands. Currently Instagram is an extremely powerful medium for content marketing -- companies can post engaging, relevant content related to their brands that convert quite effectively into more views and sales. For instance, a fitness apparel company can post quality photos and videos of athletes wearing their gear and link directly to an e-commerce store in their profile bio. The post will also be shown unobtrusively to dedicated followers.
+
+With the change, it may be harder for brands (who traditionally relied on well-timed posts) to publicize content. Instead, they'll have to purchase Instagram's sponsored posts to push the relevancy of their images. For smaller businesses with already tight marketing budgets, it seems that Instagram is pushing to de-democratize their advertising space. 
+
+This does translate to more advertising revenue for Instagram, but there's no easy way to tell how much brands will be impacted. 
+
+### On/Off toggle feature?
+
+Instagram mentioned it would pay close attention to user feedback, and I'd see no reason not to implement a toggle to turn the new algorithmic feed on and off. Both Facebook and Twitter have the option of switching back to the more traditional timeline feed. 
+
+I think this is most likely what'll happen - but it'll be interesting to see how the default features are set.
+
+{% include social_plug.html %}

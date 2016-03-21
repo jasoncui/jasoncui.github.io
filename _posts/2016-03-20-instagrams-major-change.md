@@ -8,7 +8,7 @@ category: [tech]
 
 ![DC2]({{ site.url }}/public/insta.jpg){: .center-image }
 
-*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that Instagram would be switching from its traditional.*
+*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that Instagram would be switching from its traditional reverse chronological feed to a dynamically-updated, algorithmic one. The new feed could drastically alter user experience, for both individuals and brands.*
 
 From my personal experiences and analysis, here are a few ways I can think of in which the change affects the current status quo.
 
