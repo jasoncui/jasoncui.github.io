@@ -2,7 +2,7 @@
 layout: post
 title: Instagram's Major Switch
 comments: True
-permalink: dcs-road-to-startup-hub
+permalink: instagrams-major-switch
 category: [tech]
 ---
 
