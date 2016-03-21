@@ -22,11 +22,7 @@ The reasoning behind the change? [Kevin Systrom](https://twitter.com/kevin), CEO
 
 > “On average, people miss about 70% of the posts in their Instagram feed. What this is about is making sure that the 30% you see is the best 30% possible.”
 
-This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it. However, predictably, there's already been a lot of vocal criticism:
-
-![First Comment]({{ site.url }}/public/instacomment1.png){: .center-image }
-
-![Second Comment]({{ site.url }}/public/instacomment2.png){: .center-image }
+This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it.
 
 Here's how I think the change will affect the current status quo.
 
