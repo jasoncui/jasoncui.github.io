@@ -24,9 +24,9 @@ The reasoning behind the change? [Kevin Systrom](https://twitter.com/kevin), CEO
 
 This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it. However, predictably, there's already been a lot of vocal criticism:
 
-![Instagram]({{ site.url }}/public/instacomment1.png){: .center-image }
+![First Comment]({{ site.url }}/public/instacomment1.png){: .center-image }
 
-**Screenshots here**
+![Second Comment]({{ site.url }}/public/instacomment2.png){: .center-image }
 
 Here's how I think the change will affect the current status quo.
 
