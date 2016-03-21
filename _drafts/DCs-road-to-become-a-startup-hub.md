@@ -52,6 +52,9 @@ This does translate to more advertising revenue for Instagram, but there's no ea
 
 Instagram mentioned it would pay close attention to user feedback, and I'd see no reason not to implement a toggle to turn the new algorithmic feed on and off. Both Facebook and Twitter have the option of switching back to the more traditional timeline feed. 
 
+![Twitter Screenshot]({{ site.url }}/public/twittercap.png){: .center-image }
+
+
 I think this is most likely what'll happen - but it'll be interesting to see how the default features are set.
 
 {% include social_plug.html %}
