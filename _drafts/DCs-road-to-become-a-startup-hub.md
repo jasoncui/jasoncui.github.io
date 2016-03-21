@@ -54,6 +54,7 @@ Instagram mentioned it would pay close attention to user feedback, and I'd see n
 
 ![Twitter Screenshot]({{ site.url }}/public/twittercap.png){: .center-image }
 
+![Facebook Screenshot]({{ site.url }}/public/fbcap.png){: .center-image }
 
 I think this is most likely what'll happen - but it'll be interesting to see how the default features are set.
 
