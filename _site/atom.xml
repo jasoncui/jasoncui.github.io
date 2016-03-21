@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-01-20T20:54:47-05:00</updated>
+ <updated>2016-03-20T23:01:57-04:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -13,313 +13,29 @@
 
  
  <entry>
-   <title>DC's Road to Startup Hub-Dom</title>
+   <title>Instagram's Major Switch</title>
    <link href="http://jasoncui.me/dcs-road-to-startup-hub"/>
-   <updated>2016-01-20T20:54:46-05:00</updated>
+   <updated>2016-03-20T23:01:56-04:00</updated>
    <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/dc2.jpg&quot; alt=&quot;DC2&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;DC2&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Paul Graham has published a &lt;a href=&quot;http://paulgraham.com/articles.html&quot;&gt;wonderful series of essays&lt;/a&gt; on the topic of startup hubs. The following elaborates on his ideas, their validity, and applicability to the DC tech scene.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that Instagram would be switching from its traditional.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://paulgraham.com/siliconvalley.html&quot;&gt;How to Be Silicon Valley&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From my personal experiences and analysis, here are a few ways I can think of in which the change affects the current status quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My intial reaction is one of surprise, and a bit of dissapointment&lt;/li&gt;
+  &lt;li&gt;Chronological to algorithmic, Facebook and Twitter have already switched&lt;/li&gt;
+  &lt;li&gt;Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)&lt;/li&gt;
+  &lt;li&gt;Option of on/off for reverse chronological &lt;/li&gt;
+  &lt;li&gt;Tough for brands - many small businesses rely on Instagram for marketing, now they will have to buy to seem relevant&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://paulgraham.com/startuphubs.html&quot;&gt;Why to Move to a Startup Hub&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://paulgraham.com/hubs.html&quot;&gt;Why Startup Hubs Work&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The problem is not that most towns kill startups. It’s that death is the default for startups, and most towns don’t save them. Instead of thinking of most places as being sprayed with startupicide, it’s more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Environment, Chance, Numbers&lt;/li&gt;
-  &lt;li&gt;In a hub, people are interesting in what you are doing and running a startup doesn’t seem out of the ordinary &lt;/li&gt;
-  &lt;li&gt;Chance meetings encourage you to meet people that are able to help you&lt;/li&gt;
-  &lt;li&gt;Collaborative ecosystem&lt;/li&gt;
-  &lt;li&gt;Need a certain density of people to encourage meetings&lt;/li&gt;
-  &lt;li&gt;Sense of optimism, perhaps coming from young people&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>An Analysis of YC Companies</title>
-   <link href="http://jasoncui.me/analysis-of-YC-companies"/>
-   <updated>2016-01-14T16:06:28-05:00</updated>
-   <id>http://jasoncui.me/analysis-of-YC-companies</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.ycombinator.com/&quot;&gt;Y Combinator&lt;/a&gt; (YC) is perhaps the most well-known startup seed accelerator in the world. YC makes $120k seed investments in small groups of startups twice a year in Silicon Valley. The following is a hopefully interesting analysis of YC companies.&lt;/em&gt;&lt;/p&gt;
-
-&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;
-&lt;/script&gt;
-
-&lt;script src=&quot;http://code.highcharts.com/highcharts.js&quot;&gt;
-&lt;/script&gt;
-
-&lt;script src=&quot;http://code.highcharts.com/modules/exporting.js&quot;&gt;
-&lt;/script&gt;
-
-&lt;div id=&quot;container&quot; style=&quot;min-width: 310px; height: 400px; margin: 0 auto&quot;&gt;
-&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-$(&#39;#container&#39;).highcharts({
-        chart: {
-            type: &#39;column&#39;
-        },
-        title: {
-            text: &#39;Analysis of Y Combinator Companies&#39;
-        },
-        subtitle: {
-            text: &#39;Click the columns to view exact percentages.&#39;
-        },
-        xAxis: {
-            type: &#39;Category&#39;
-        },
-        yAxis: {
-            title: {
-                text: &#39;Percent&#39;
-            }
-
-        },
-        legend: {
-            enabled: false
-        },
-        plotOptions: {
-            series: {
-                borderWidth: 0,
-                dataLabels: {
-                    enabled: true,
-                    format: &#39;{point.y:.1f}%&#39;
-                }
-            }
-        },
-
-        tooltip: {
-            headerFormat: &#39;&lt;span style=&quot;font-size:11px&quot;&gt;{series.name}&lt;/span&gt;&lt;br&gt;&#39;,
-            pointFormat: &#39;&lt;span style=&quot;color:{point.color}&quot;&gt;{point.name}&lt;/span&gt;: &lt;b&gt;{point.y:.2f}%&lt;/b&gt; of total&lt;br/&gt;&#39;
-        },
-
-        series: [{
-            name: &#39;Brands&#39;,
-            colorByPoint: true,
-            data: [{
-                name: &#39;Microsoft Internet Explorer&#39;,
-                y: 56.33,
-                drilldown: &#39;Microsoft Internet Explorer&#39;
-            }, {
-                name: &#39;Chrome&#39;,
-                y: 24.03,
-                drilldown: &#39;Chrome&#39;
-            }, {
-                name: &#39;Firefox&#39;,
-                y: 10.38,
-                drilldown: &#39;Firefox&#39;
-            }, {
-                name: &#39;Safari&#39;,
-                y: 4.77,
-                drilldown: &#39;Safari&#39;
-            }, {
-                name: &#39;Opera&#39;,
-                y: 0.91,
-                drilldown: &#39;Opera&#39;
-            }, {
-                name: &#39;Proprietary or Undetectable&#39;,
-                y: 0.2,
-                drilldown: null
-            }]
-        }],
-        drilldown: {
-            series: [{
-                name: &#39;Microsoft Internet Explorer&#39;,
-                id: &#39;Microsoft Internet Explorer&#39;,
-                data: [
-                    [
-                        &#39;v11.0&#39;,
-                        24.13
-                    ],
-                    [
-                        &#39;v8.0&#39;,
-                        17.2
-                    ],
-                    [
-                        &#39;v9.0&#39;,
-                        8.11
-                    ],
-                    [
-                        &#39;v10.0&#39;,
-                        5.33
-                    ],
-                    [
-                        &#39;v6.0&#39;,
-                        1.06
-                    ],
-                    [
-                        &#39;v7.0&#39;,
-                        0.5
-                    ]
-                ]
-            }, {
-                name: &#39;Chrome&#39;,
-                id: &#39;Chrome&#39;,
-                data: [
-                    [
-                        &#39;v40.0&#39;,
-                        5
-                    ],
-                    [
-                        &#39;v41.0&#39;,
-                        4.32
-                    ],
-                    [
-                        &#39;v42.0&#39;,
-                        3.68
-                    ],
-                    [
-                        &#39;v39.0&#39;,
-                        2.96
-                    ],
-                    [
-                        &#39;v36.0&#39;,
-                        2.53
-                    ],
-                    [
-                        &#39;v43.0&#39;,
-                        1.45
-                    ],
-                    [
-                        &#39;v31.0&#39;,
-                        1.24
-                    ],
-                    [
-                        &#39;v35.0&#39;,
-                        0.85
-                    ],
-                    [
-                        &#39;v38.0&#39;,
-                        0.6
-                    ],
-                    [
-                        &#39;v32.0&#39;,
-                        0.55
-                    ],
-                    [
-                        &#39;v37.0&#39;,
-                        0.38
-                    ],
-                    [
-                        &#39;v33.0&#39;,
-                        0.19
-                    ],
-                    [
-                        &#39;v34.0&#39;,
-                        0.14
-                    ],
-                    [
-                        &#39;v30.0&#39;,
-                        0.14
-                    ]
-                ]
-            }, {
-                name: &#39;Firefox&#39;,
-                id: &#39;Firefox&#39;,
-                data: [
-                    [
-                        &#39;v35&#39;,
-                        2.76
-                    ],
-                    [
-                        &#39;v36&#39;,
-                        2.32
-                    ],
-                    [
-                        &#39;v37&#39;,
-                        2.31
-                    ],
-                    [
-                        &#39;v34&#39;,
-                        1.27
-                    ],
-                    [
-                        &#39;v38&#39;,
-                        1.02
-                    ],
-                    [
-                        &#39;v31&#39;,
-                        0.33
-                    ],
-                    [
-                        &#39;v33&#39;,
-                        0.22
-                    ],
-                    [
-                        &#39;v32&#39;,
-                        0.15
-                    ]
-                ]
-            }, {
-                name: &#39;Safari&#39;,
-                id: &#39;Safari&#39;,
-                data: [
-                    [
-                        &#39;v8.0&#39;,
-                        2.56
-                    ],
-                    [
-                        &#39;v7.1&#39;,
-                        0.77
-                    ],
-                    [
-                        &#39;v5.1&#39;,
-                        0.42
-                    ],
-                    [
-                        &#39;v5.0&#39;,
-                        0.3
-                    ],
-                    [
-                        &#39;v6.1&#39;,
-                        0.29
-                    ],
-                    [
-                        &#39;v7.0&#39;,
-                        0.26
-                    ],
-                    [
-                        &#39;v6.2&#39;,
-                        0.17
-                    ]
-                ]
-            }, {
-                name: &#39;Opera&#39;,
-                id: &#39;Opera&#39;,
-                data: [
-                    [
-                        &#39;v12.x&#39;,
-                        0.34
-                    ],
-                    [
-                        &#39;v28&#39;,
-                        0.24
-                    ],
-                    [
-                        &#39;v27&#39;,
-                        0.17
-                    ],
-                    [
-                        &#39;v29&#39;,
-                        0.16
-                    ]
-                ]
-            }]
-        }
-    });
-
-&lt;/script&gt;
-
 </content>
  </entry>
  
@@ -378,15 +94,6 @@ $(&#39;#container&#39;).highcharts({
 or 
 &lt;a href=&quot;https://twitter.com/jasonscui&quot;&gt;
   follow me on Twitter&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>A Guide to Startup Internships</title>
-   <link href="http://jasoncui.me/guide-to-startup-internships"/>
-   <updated>2016-01-10T23:49:06-05:00</updated>
-   <id>http://jasoncui.me/a-guide-to-startup-internships</id>
-   <content type="html">&lt;p&gt;Test&lt;/p&gt;
 </content>
  </entry>
  
