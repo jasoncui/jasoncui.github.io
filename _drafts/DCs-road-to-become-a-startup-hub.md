@@ -33,12 +33,10 @@ Facebook first switched from a similar reverse chronological feed to a new feed 
 Twitter recently [made the same change](https://blog.twitter.com/2016/never-miss-important-tweets-from-people-you-follow). Instagram would be following right in the footsteps of the two largest social media platforms. 
 
 ### Less emphasis on users with smaller followings and non-frequent posts.
-* Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)
-* Gets rid of real-time interactions
 
-Instagram claims that the algorithm will work with a combination of ratio with relevancy to surface posts most relevant to the individual user. I personally am a bit doubtful of this method - the same method used by Facebook tends to surface content from more frequent or popular posters.
+Instagram claims that the algorithm will work intelligently using ratios to surface posts most relevant to the individual user. This is exactly what Facebook does. I've found that while Facebook does surface very relevant posts (birthdays, friends traveling, major life events, etc.) it'll skim over less-frequent users. One thing I've always personally enjoyed about Instagram is *catching those posts from less frequent posters*. Because often times those posts end up being the most interesting.
 
-One thing I've always personally enjoyed about Instagram is *catching those posts from less frequent posters*. Because often times those posts end up being the most interesting.
+It can also be argued that the new feed will eliminate one of Instagram's strength of real-time interaction. 
 
 ### A big hit to brands, especially smaller businesses. 
 
@@ -53,8 +51,10 @@ This does translate to more advertising revenue for Instagram, but there's no ea
 Instagram mentioned it would pay close attention to user feedback, and I'd see no reason not to implement a toggle to turn the new algorithmic feed on and off. Both Facebook and Twitter have the option of switching back to the more traditional timeline feed. 
 
 ![Twitter Screenshot]({{ site.url }}/public/twittercap.png){: .center-image }
+*Twitter's feed toggle.*
 
 ![Facebook Screenshot]({{ site.url }}/public/fbcap.png){: .center-image }
+*Facebook's feed toggle.*
 
 I think this is most likely what'll happen - but it'll be interesting to see how the default features are set.
 

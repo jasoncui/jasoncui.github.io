@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-03-21T14:51:13-04:00</updated>
+ <updated>2016-03-21T15:02:56-04:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Instagram's Major Switch</title>
    <link href="http://jasoncui.me/instagrams-major-switch"/>
-   <updated>2016-03-21T14:51:13-04:00</updated>
+   <updated>2016-03-21T15:02:56-04:00</updated>
    <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;Instagram&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
@@ -48,14 +48,10 @@
 &lt;p&gt;Twitter recently &lt;a href=&quot;https://blog.twitter.com/2016/never-miss-important-tweets-from-people-you-follow&quot;&gt;made the same change&lt;/a&gt;. Instagram would be following right in the footsteps of the two largest social media platforms. &lt;/p&gt;
 
 &lt;h3 id=&quot;less-emphasis-on-users-with-smaller-followings-and-non-frequent-posts&quot;&gt;Less emphasis on users with smaller followings and non-frequent posts.&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)&lt;/li&gt;
-  &lt;li&gt;Gets rid of real-time interactions&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;Instagram claims that the algorithm will work with a combination of ratio with relevancy to surface posts most relevant to the individual user. I personally am a bit doubtful of this method - the same method used by Facebook tends to surface content from more frequent or popular posters.&lt;/p&gt;
+&lt;p&gt;Instagram claims that the algorithm will work intelligently using ratios to surface posts most relevant to the individual user. This is exactly what Facebook does. I’ve found that while Facebook does surface very relevant posts (birthdays, friends traveling, major life events, etc.) it’ll skim over less-frequent users. One thing I’ve always personally enjoyed about Instagram is &lt;em&gt;catching those posts from less frequent posters&lt;/em&gt;. Because often times those posts end up being the most interesting.&lt;/p&gt;
 
-&lt;p&gt;One thing I’ve always personally enjoyed about Instagram is &lt;em&gt;catching those posts from less frequent posters&lt;/em&gt;. Because often times those posts end up being the most interesting.&lt;/p&gt;
+&lt;p&gt;It can also be argued that the new feed will eliminate one of Instagram’s strength of real-time interaction. &lt;/p&gt;
 
 &lt;h3 id=&quot;a-big-hit-to-brands-especially-smaller-businesses&quot;&gt;A big hit to brands, especially smaller businesses.&lt;/h3&gt;
 
@@ -69,9 +65,11 @@
 
 &lt;p&gt;Instagram mentioned it would pay close attention to user feedback, and I’d see no reason not to implement a toggle to turn the new algorithmic feed on and off. Both Facebook and Twitter have the option of switching back to the more traditional timeline feed. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/twittercap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/twittercap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;
+&lt;em&gt;Twitter’s feed toggle.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/fbcap.png&quot; alt=&quot;Facebook Screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/fbcap.png&quot; alt=&quot;Facebook Screenshot&quot; class=&quot;center-image&quot; /&gt;
+&lt;em&gt;Facebook’s feed toggle.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I think this is most likely what’ll happen - but it’ll be interesting to see how the default features are set.&lt;/p&gt;
 
