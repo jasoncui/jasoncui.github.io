@@ -57,7 +57,7 @@ I think this is most likely what'll happen - but it'll be interesting to see how
 
 ### Turning On Post Notifications
 
-Many influential users and brands are already catching onto the change and urging followers to "turn on post notications" -- by clicking the three tops located at the top right corner of all pictures.
+Many influential users and brands are already catching onto the change and urging followers to "turn on post notications" -- by clicking the three dots located at the top right corner of all pictures.
 
 ![Twitter Screenshot]({{ site.url }}/public/instacap.png){: .center-image }
 *Clicking the top right corner will bring down a dropdown menu that allows users to turn on post notifications.*
