@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-03-28T15:12:20-04:00</updated>
+ <updated>2016-03-28T15:16:34-04:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Instagram's Major Switch</title>
    <link href="http://jasoncui.me/instagrams-major-switch"/>
-   <updated>2016-03-28T15:06:47-04:00</updated>
+   <updated>2016-03-28T15:16:03-04:00</updated>
    <id>http://jasoncui.me/instagrams-major-change</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;Instagram&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
@@ -74,13 +74,91 @@
 
 &lt;p&gt;Many influential users and brands are already catching onto the change and urging followers to “turn on post notications” – by clicking the three tops located at the top right corner of all pictures.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/instacap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/instacap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;
+&lt;em&gt;Clicking the top right corner will bring down a dropdown menu that allows users to turn on post notifications.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s no question that Instagram’s user experience will change. I hope for the sake of both the company and its users that it’s for the better. &lt;/p&gt;
 
 &lt;p&gt;&lt;i&gt;If you liked this post, you can &lt;a href=&quot;https://twitter.com/intent/tweet?url=http://jasoncui.me/instagrams-major-switch&amp;amp;text=Instagram&#39;s Major Switch&amp;amp;via=jasonscui&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
-&lt;a href=&quot;https://twitter.com/jasonscui&quot;&gt;
-  follow me on Twitter&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://instagram.com/jasonscui&quot;&gt;
+  follow me on Instagram&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Instagram's Major Switch</title>
+   <link href="http://jasoncui.me/instagrams-major-switch"/>
+   <updated>2016-03-28T00:00:00-04:00</updated>
+   <id>http://jasoncui.me/instagrams-major-switch</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;Instagram&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that &lt;a href=&quot;https://www.instagram.com&quot;&gt;Instagram&lt;/a&gt; is switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-switch&quot;&gt;The Switch&lt;/h3&gt;
+
+&lt;p&gt;Instagram’s announcement of change has already come at a surprise to many users (me included). For those not familiar, Instagram currently utilizes a simple, one-view feed in which pictures are populated in reverse chronological order - the most recent pictures posted are shown first.&lt;/p&gt;
+
+&lt;p&gt;This method has been a staple of Instagram’s. The new method would scratch the timeline feel and instead choose which pictures to show to users based on predicted relevancy. More specifically, populating:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“based on the likelihood you’ll be interested in the content, your relationship with the person posting, and the timeliness of the post.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The reasoning behind the change? &lt;a href=&quot;https://twitter.com/kevin&quot;&gt;Kevin Systrom&lt;/a&gt;, CEO of Instagram, claims:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“On average, people miss about 70% of the posts in their Instagram feed. What this is about is making sure that the 30% you see is the best 30% possible.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there’s no good way to judge how such a change would feel without trying it. &lt;/p&gt;
+
+&lt;p&gt;Here’s how I think the change will affect the current status quo.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-push-forward-to-follow-the-lead-of-other-social-media-giants&quot;&gt;A push forward to follow the lead of other social media giants.&lt;/h3&gt;
+
+&lt;p&gt;Facebook first switched from a similar reverse chronological feed to a new feed based on “popularity” in 2009. Facebook received similar outcry at the change, resulting in a change in 2011 that combined the traditional feed with the newer algorithmic feed.&lt;/p&gt;
+
+&lt;p&gt;Twitter recently &lt;a href=&quot;https://blog.twitter.com/2016/never-miss-important-tweets-from-people-you-follow&quot;&gt;made the same change&lt;/a&gt;. Instagram would be following right in the footsteps of the two largest social media platforms. &lt;/p&gt;
+
+&lt;h3 id=&quot;less-emphasis-on-users-with-smaller-followings-and-non-frequent-posts&quot;&gt;Less emphasis on users with smaller followings and non-frequent posts.&lt;/h3&gt;
+
+&lt;p&gt;Instagram claims that the algorithm will work intelligently using ratios to surface posts most relevant to the individual user. This is exactly what Facebook does. I’ve found that while Facebook does surface very relevant posts (birthdays, friends traveling, major life events, etc.) it’ll skim over less-frequent users. One thing I’ve always personally enjoyed about Instagram is &lt;em&gt;catching those posts from less frequent posters&lt;/em&gt;. Because often times those posts end up being the most interesting.&lt;/p&gt;
+
+&lt;p&gt;It is also plausible that the new feed will eliminate one of Instagram’s strength of real-time, location-based interaction. &lt;/p&gt;
+
+&lt;h3 id=&quot;a-big-hit-to-brands-especially-smaller-businesses&quot;&gt;A big hit to brands, especially smaller businesses.&lt;/h3&gt;
+
+&lt;p&gt;The change will have a large impact on brands. Currently Instagram is an extremely powerful medium for content marketing – companies can post engaging, relevant content related to their brands that convert quite effectively into more views and sales. For instance, a fitness apparel company can post quality photos and videos of athletes wearing their gear and link directly to an e-commerce store in their profile bio. The post will also be shown unobtrusively to dedicated followers.&lt;/p&gt;
+
+&lt;p&gt;With the change, it may be harder for brands (who traditionally relied on well-timed posts) to publicize content. Instead, they’ll have to purchase Instagram’s sponsored posts to push the relevancy of their images. For smaller businesses with already tight marketing budgets, it seems that Instagram is pushing to de-democratize their advertising space. &lt;/p&gt;
+
+&lt;p&gt;This does translate to more advertising revenue for Instagram, but there’s no easy way to tell how much brands will be impacted. &lt;/p&gt;
+
+&lt;h3 id=&quot;onoff-toggle-feature&quot;&gt;On/Off toggle feature?&lt;/h3&gt;
+
+&lt;p&gt;Instagram mentioned it would pay close attention to user feedback, and I’d see no reason not to implement a toggle to turn the new algorithmic feed on and off. Both Facebook and Twitter have the option of switching back to the more traditional timeline feed. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/twittercap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;
+&lt;em&gt;Twitter’s feed toggle.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I think this is most likely what’ll happen - but it’ll be interesting to see how the default features are set.&lt;/p&gt;
+
+&lt;h3 id=&quot;turning-on-post-notifications&quot;&gt;Turning On Post Notifications&lt;/h3&gt;
+
+&lt;p&gt;Many influential users and brands are already catching onto the change and urging followers to “turn on post notications” – by clicking the three tops located at the top right corner of all pictures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/instacap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;
+&lt;em&gt;Clicking the top right corner will bring down a dropdown menu that allows users to turn on post notifications.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s no question that Instagram’s user experience will change. I hope for the sake of both the company and its users that it’s for the better. &lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;If you liked this post, you can &lt;a href=&quot;https://twitter.com/intent/tweet?url=http://jasoncui.me/instagrams-major-switch&amp;amp;text=Instagram&#39;s Major Switch&amp;amp;via=jasonscui&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://instagram.com/jasonscui&quot;&gt;
+  follow me on Instagram&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -137,8 +215,8 @@ or
 &lt;p&gt;&lt;i&gt;If you liked this post, you can &lt;a href=&quot;https://twitter.com/intent/tweet?url=http://jasoncui.me/my-hope-for-DC-tech&amp;amp;text=My Hope for DC Tech in 2016&amp;amp;via=jasonscui&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
-&lt;a href=&quot;https://twitter.com/jasonscui&quot;&gt;
-  follow me on Twitter&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://instagram.com/jasonscui&quot;&gt;
+  follow me on Instagram&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
 </content>
  </entry>
  
