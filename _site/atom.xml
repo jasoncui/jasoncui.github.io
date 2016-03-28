@@ -4,7 +4,7 @@
  <title>Jason Cui</title>
  <link href="http://jasoncui.me/atom.xml" rel="self"/>
  <link href="http://jasoncui.me/"/>
- <updated>2016-03-21T15:02:56-04:00</updated>
+ <updated>2016-03-28T15:07:05-04:00</updated>
  <id>http://jasoncui.me</id>
  <author>
    <name>Jason Cui</name>
@@ -15,11 +15,11 @@
  <entry>
    <title>Instagram's Major Switch</title>
    <link href="http://jasoncui.me/instagrams-major-switch"/>
-   <updated>2016-03-21T15:02:56-04:00</updated>
-   <id>http://jasoncui.me/DCs-road-to-become-a-startup-hub</id>
+   <updated>2016-03-28T15:06:47-04:00</updated>
+   <id>http://jasoncui.me/instagrams-major-change</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;Instagram&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that &lt;a href=&quot;https://www.instagram.com&quot;&gt;Instagram&lt;/a&gt; might be switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that &lt;a href=&quot;https://www.instagram.com&quot;&gt;Instagram&lt;/a&gt; is switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;the-switch&quot;&gt;The Switch&lt;/h3&gt;
 
@@ -37,7 +37,7 @@
   &lt;p&gt;“On average, people miss about 70% of the posts in their Instagram feed. What this is about is making sure that the 30% you see is the best 30% possible.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there’s no good way to judge how such a change would feel without trying it.&lt;/p&gt;
+&lt;p&gt;This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there’s no good way to judge how such a change would feel without trying it. &lt;/p&gt;
 
 &lt;p&gt;Here’s how I think the change will affect the current status quo.&lt;/p&gt;
 
@@ -51,7 +51,7 @@
 
 &lt;p&gt;Instagram claims that the algorithm will work intelligently using ratios to surface posts most relevant to the individual user. This is exactly what Facebook does. I’ve found that while Facebook does surface very relevant posts (birthdays, friends traveling, major life events, etc.) it’ll skim over less-frequent users. One thing I’ve always personally enjoyed about Instagram is &lt;em&gt;catching those posts from less frequent posters&lt;/em&gt;. Because often times those posts end up being the most interesting.&lt;/p&gt;
 
-&lt;p&gt;It can also be argued that the new feed will eliminate one of Instagram’s strength of real-time interaction. &lt;/p&gt;
+&lt;p&gt;It is also plausible that the new feed will eliminate one of Instagram’s strength of real-time, location-based interaction. &lt;/p&gt;
 
 &lt;h3 id=&quot;a-big-hit-to-brands-especially-smaller-businesses&quot;&gt;A big hit to brands, especially smaller businesses.&lt;/h3&gt;
 
@@ -68,43 +68,19 @@
 &lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/twittercap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;
 &lt;em&gt;Twitter’s feed toggle.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/fbcap.png&quot; alt=&quot;Facebook Screenshot&quot; class=&quot;center-image&quot; /&gt;
-&lt;em&gt;Facebook’s feed toggle.&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;I think this is most likely what’ll happen - but it’ll be interesting to see how the default features are set.&lt;/p&gt;
+
+&lt;h3 id=&quot;turning-on-post-notifications&quot;&gt;Turning On Post Notifications&lt;/h3&gt;
+
+&lt;p&gt;Many influential users and brands are already catching onto the change and urging followers to “turn on post notications” – by clicking the three tops located at the top right corner of all pictures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/instacap.png&quot; alt=&quot;Twitter Screenshot&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;i&gt;If you liked this post, you can &lt;a href=&quot;https://twitter.com/intent/tweet?url=http://jasoncui.me/instagrams-major-switch&amp;amp;text=Instagram&#39;s Major Switch&amp;amp;via=jasonscui&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/jasonscui&quot;&gt;
   follow me on Twitter&lt;/a&gt;!&lt;/i&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Instagram's Major Switch</title>
-   <link href="http://jasoncui.me/instagrams-major-switch"/>
-   <updated>2016-03-20T00:00:00-04:00</updated>
-   <id>http://jasoncui.me/instagrams-major-change</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;http://jasoncui.me/public/insta.jpg&quot; alt=&quot;DC2&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It was &lt;a href=&quot;http://techcrunch.com/2016/03/15/filteredgram/&quot;&gt;recently announced&lt;/a&gt; that Instagram would be switching from its traditional reverse chronological feed to a dynamically-updated, algorithmic one. The new feed could drastically alter user experience, for both individuals and brands.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;From my personal experiences and analysis, here are a few ways I can think of in which the change affects the current status quo.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;My intial reaction is one of surprise, and a bit of dissapointment&lt;/li&gt;
-  &lt;li&gt;Chronological to algorithmic, Facebook and Twitter have already switched&lt;/li&gt;
-  &lt;li&gt;Emphasis on users with larger followings, who post more often (although algorith works with combination of ratio with relevancy)&lt;/li&gt;
-  &lt;li&gt;Option of on/off for reverse chronological &lt;/li&gt;
-  &lt;li&gt;Tough for brands - many small businesses rely on Instagram for marketing, now they will have to buy to seem relevant&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The problem is not that most towns kill startups. It’s that death is the default for startups, and most towns don’t save them. Instead of thinking of most places as being sprayed with startupicide, it’s more accurate to think of startups as all being poisoned, and a few places being sprayed with the antidote.&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
  </entry>
  

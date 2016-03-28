@@ -8,7 +8,7 @@ category: [tech]
 
 ![Instagram]({{ site.url }}/public/insta.jpg){: .center-image }
 
-*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that [Instagram](https://www.instagram.com) might be switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.*
+*It was [recently announced](http://techcrunch.com/2016/03/15/filteredgram/) that [Instagram](https://www.instagram.com) is switching from its traditional, reverse chronological feed to a dynamically-updated, algorithmic one. This new feed could drastically alter the user experience for both individuals and brands.*
 
 ### The Switch
 
@@ -22,7 +22,7 @@ The reasoning behind the change? [Kevin Systrom](https://twitter.com/kevin), CEO
 
 > “On average, people miss about 70% of the posts in their Instagram feed. What this is about is making sure that the 30% you see is the best 30% possible.”
 
-This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it.
+This change very well might be a good one. There was much pushback to when Facebook released its news feed, and there's no good way to judge how such a change would feel without trying it. 
 
 Here's how I think the change will affect the current status quo.
 
@@ -36,7 +36,7 @@ Twitter recently [made the same change](https://blog.twitter.com/2016/never-miss
 
 Instagram claims that the algorithm will work intelligently using ratios to surface posts most relevant to the individual user. This is exactly what Facebook does. I've found that while Facebook does surface very relevant posts (birthdays, friends traveling, major life events, etc.) it'll skim over less-frequent users. One thing I've always personally enjoyed about Instagram is *catching those posts from less frequent posters*. Because often times those posts end up being the most interesting.
 
-It can also be argued that the new feed will eliminate one of Instagram's strength of real-time interaction. 
+It is also plausible that the new feed will eliminate one of Instagram's strength of real-time, location-based interaction. 
 
 ### A big hit to brands, especially smaller businesses. 
 
@@ -53,9 +53,12 @@ Instagram mentioned it would pay close attention to user feedback, and I'd see n
 ![Twitter Screenshot]({{ site.url }}/public/twittercap.png){: .center-image }
 *Twitter's feed toggle.*
 
-![Facebook Screenshot]({{ site.url }}/public/fbcap.png){: .center-image }
-*Facebook's feed toggle.*
-
 I think this is most likely what'll happen - but it'll be interesting to see how the default features are set.
+
+### Turning On Post Notifications
+
+Many influential users and brands are already catching onto the change and urging followers to "turn on post notications" -- by clicking the three tops located at the top right corner of all pictures.
+
+![Twitter Screenshot]({{ site.url }}/public/instacap.png){: .center-image }
 
 {% include social_plug.html %}
