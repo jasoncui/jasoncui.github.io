@@ -6,7 +6,7 @@
 
 /*    CUSTOM CSS     */
 #nav {
-    position:fixed; 
+    position:fixed;
     top:300;
 }
 
@@ -14,6 +14,13 @@
     background-color: #003366;
 }
 
+
+.box {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: #eee;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
 
 
 html,
@@ -65,11 +72,21 @@ p {
 }
 
 .bg-primary {
-    background-color: #003366;
+    background-color: #006BB6;
 }
 
-.services {
-    background-color: #fff;
+.college1 {
+    /* background-color: #fff; */
+    background-image: url(../img/curry_davidson.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.college2 {
+    /* background-color: #fff; */
+    background-image: url(../img/curry_davidson2.jpg);
+    background-position: center
+    background-repeat: no-repeat;
 }
 
 .bg-dark {
@@ -197,7 +214,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    /* background-image: url(../img/curry.jpeg); */
+    background-image: url(../img/curry.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,6 +264,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 30px;
     font-size: 16px;
     font-weight: 300;
+    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -357,11 +375,19 @@ header .header-content .header-content-inner p {
 }
 
 .call-to-action h2 {
-    margin: 0 auto 20px;
+    margin: 0 auto;
 }
 
 .text-primary {
     color: #003366;
+}
+
+.text-secondary {
+    color: white;
+}
+
+.text-tertiary {
+    color: #FFD700;
 }
 
 .no-gutter > [class*=col-] {
@@ -423,9 +449,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #003366;
+    border-color: #006BB6;
     color: #fff;
-    background-color: #003366;
+    background-color: #006BB6;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -478,7 +504,7 @@ fieldset[disabled] .btn-primary.active {
 .btn {
     border: 0;
     border-radius: 300px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
@@ -522,18 +548,18 @@ body {
 }
 
 .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 3px;
+    fill: #FFD700;
+    stroke: #006BB6;
+    stroke-width: 2px;
 }
 
 .node text {
-    font: 12px sans-serif;
+    font: 10px "Roboto Condensed";
 }
 
 .link {
     fill: none;
-    stroke: #ccc;
+    stroke: #FFD700;
     stroke-width: 2px;
 }
 
@@ -544,10 +570,11 @@ body {
     margin-top: 20px;
 }
 
+/*
 path {
     stroke:white;
     stroke-width: 1px;
-}
+}*/
 
 .city {
     font: 10px sans-serif;
@@ -580,35 +607,79 @@ div.tooltip {
     stroke: #fff;
 }
 
-/* pie chart visualization */
-.pie-chart-tip {
-    font-size: 10px;
+.bio-intro {
+    margin-bottom: 20px;
+}
+
+#yellow-highlight {
+    color: #FFD700;
+}
+
+#blue-highlight {
+    color:#006BB6;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
 .bar {
-    fill: orange;
+    fill: #FFD700;
 }
 
-.solidArc:hover {
-    fill: orangered ;
-}
-
-.solidArc {
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.aster-score { 
-    line-height: 1;
-    font-weight: bold;
-    font-size: 100%;
+.bar:hover {
+    fill: #006BB6 ;
 }
 
 .x.axis path {
     display: none;
 }
+
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(43, 46, 47, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip 
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently 
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+*/
+
+.space-at-bottom {
+    margin-bottom: 30px;
+}
+
+.space-at-top {
+    margin-top: 30px;
+}
+
+.text-below-graph {
+    margin-top: 20px;
+}
+
 
 
 /* d3-tip */
@@ -639,4 +710,100 @@ div.tooltip {
     margin: -4px 0 0 0;
     top: 100%;
     left: 0;
+}
+
+
+
+/* Pie chart */
+.pie-chart-tip {
+    font-size: 10px;
+}
+
+.bar {
+    fill: #FFD700;
+}
+
+.solidArc:hover {
+    fill: orangered ;
+}
+
+.solidArc {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.aster-score { 
+    line-height: 1;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.form-control {
+    width: 40%;
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}
+
+/* c3 css stuff */
+.c3-axis {
+  fill: #FFF;
+    font-family: "Roboto Condensed";
+}
+
+.c3-legend-item text {
+    fill: #FFF;
+    font-family: "Roboto Condensed";
+}
+
+.c3-tooltip {
+    color: #000
+}
+
+.c3 .c3-axis path, .c3 .c3-axis line {
+    stroke: #FFF;
+}
+
+#college-line1 .c3-line-Threes {
+    stroke-width: 2px;
+}
+
+#college-line1 .c3-line-Free-Throws {
+    stroke-width: 2px;
+}
+
+#college-line1 .c3-line-Field-Goals {
+    stroke-width: 2px;
+}
+
+#college-line2 .c3-line-Rebounds {
+    stroke-width: 2px;
+}
+
+#college-line2 .c3-line-Assists {
+    stroke-width: 2px;
+}
+
+#college-line2 .c3-line-Steals {
+    stroke-width: 2px;
+}
+
+#college-line2 .c3-line-Blocks {
+    stroke-width: 2px;
+}
+
+#college-line2 .c3-line-Turnovers {
+    stroke-width: 2px;
+}
+
+.college-shot-data-buttons {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
