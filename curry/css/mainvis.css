@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 /*    CUSTOM CSS     */
 #nav {
     position:fixed;
@@ -22,6 +16,38 @@
     width: 100%;
 }
 
+.nv-box {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: #eee;
+    padding: 15px 15px 130px 15px;
+    margin-bottom: 20px;
+}
+
+.nv-box-threes {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: #eee;
+    padding: 15px 15px 80px 15px;
+    margin-bottom: 20px;
+}
+
+.nv-box-FGs {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: #eee;
+    padding: 15px 15px 115px 15px;
+    margin-bottom: 20px;
+}
+
+.light-box {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: #eee;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
+
+#last_element {
+    position: absolute;
+    width: 100%;
+}
 
 html,
 body {
@@ -30,7 +56,7 @@ body {
 }
 
 body {
-    font-family: "Roboto Condensed",'Helvetica Neue',Arial,sans-serif;
+    font-family: "Roboto Condensed",'Helvetica Neue', Arial,sans-serif;
     font-weight: 300;
 }
 
@@ -75,6 +101,11 @@ p {
     background-color: #006BB6;
 }
 
+.bg-secondary {
+    background-color: #FFD700;
+}
+
+
 .college1 {
     /* background-color: #fff; */
     background-image: url(../img/curry_davidson.jpg);
@@ -85,8 +116,45 @@ p {
 .college2 {
     /* background-color: #fff; */
     background-image: url(../img/curry_davidson2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.warriors1 {
+    /* background-color: #fff; */
+    background-image: url(../img/warriors4.jpg);
     background-position: center
     background-repeat: no-repeat;
+}
+
+.warriors2 {
+    /* background-color: #fff; */
+    background-image: url(../img/warriors5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.warriors3 {
+    /* background-color: #fff; */
+    background-image: url(../img/warriors6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.warriors4 {
+    /* background-color: #fff; */
+    background-image: url(../img/warriors7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.goodbye {
+    /* background-color: #fff; */
+    background-image: url(../img/goodbye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .bg-dark {
@@ -264,7 +332,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 30px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -379,7 +446,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #003366;
+    color: #006BB6;
 }
 
 .text-secondary {
@@ -545,6 +612,10 @@ body {
 
 .node {
     cursor: pointer;
+}
+
+.node:hover {
+    fill: #FFD700;
 }
 
 .node circle {
@@ -723,8 +794,11 @@ div.tooltip {
     fill: #FFD700;
 }
 
-.solidArc:hover {
-    fill: orangered ;
+
+
+#pie-area:hover{
+    cursor: pointer;
+    fill: #FFD700;
 }
 
 .solidArc {
@@ -806,4 +880,72 @@ div.tooltip {
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#warriors-threes {
+    margin-top: 10px;
+    fill: #fff;
+}
+
+#leaders-threes {
+    margin-top: 10px;
+    fill: #fff;
+}
+
+#leaders-FGs {
+    margin-top: 10px;
+    fill: #fff;
+}
+
+#leaders-FTPercentage {
+    margin-top: 10px;
+    fill: #fff;
+}
+
+#leaders-PPG {
+    margin-top: 10px;
+    fill: #fff;
+}
+
+.nv-legend-text {
+    fill: #fff;
+}
+
+.nv-group {
+    fill: #fff;
+}
+
+.warriors-threes-vis {
+    height: 550px;
+}
+
+.warriors-leaders-vis {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nv-bar .positive {
+    fill: #fff;
+}
+
+.nvd3 .nv-discretebar .nv-groups text, .nvd3 .nv-multibarHorizontal .nv-groups text {
+    fill: #fff;
+}
+
+.goodbye-text {
+    margin-top: 210px;
+}
+
+.tree-vis {
+    margin: 0 auto;
+    text-align:center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.map-pie {
+    margin: 0 auto;
+    text-align:center;
+    width: 80%;
 }
