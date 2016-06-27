@@ -3,20 +3,28 @@ layout: page
 title: About
 ---
 
-![Jason Cui]({{ site.url }}/public/jason2.jpg){: .center-image }
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-My name is Jason Cui and I am a sophomore at Harvard studying computer science. I am passionate about technology, scientific discovery, and entrepreneurship. This site is a collection of my projects, thoughts, and materials I find interesting.
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-Feel free to reach out through my social media handles below. 
+There are currently two themes built on Poole:
 
-## Social
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-* [LinkedIn](https://www.linkedin.com/in/jasonscui)
-* [Twitter](https://www.twitter.com/JasonSCui)
-* [Instagram](https://www.instagram.com/JasonSCui)
-* [Facebook](https://www.facebook.com/JasonSCui)
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-If you're curious, this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com).
+## Setup
+
+Some fun facts about the setup of this project include:
+
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
-![Signature]({{ site.url }}/public/signature.png)
