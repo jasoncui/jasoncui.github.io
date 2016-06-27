@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Hyde
+title: My Hope for DC Tech in 2016
 ---
 
 [DC]({{ site.url }}/public/washington.jpg){: .center-image }
