@@ -3,7 +3,7 @@ layout: post
 title: My Hope for DC Tech in 2016
 ---
 
-![DC](http://jasoncui.me/public/washington.jpg){: .center-image }
+![DC](http://jasoncui.me/public/images/washington.jpg){: .center-image }
 
 *This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced) perspective.*
 
@@ -39,7 +39,7 @@ This is something I firmly believe in and am personally passionate about. Startu
 
 To me this is a great shame. There is so much local talent from universities, even from the high school level in the DMV that remains untapped. This is one of the main reasons why I co-founded [DCXP](http://www.joindcxp.org) along with [Brian Mitchell](https://www.linkedin.com/in/brian-mitchell-6b8704a2) and [Danny Flax](https://www.linkedin.com/in/danny-flax-143a2b3a). We [write about that experience here](https://medium.com/@joindcxp/why-we-started-dcxp-e15fe06fd311#.94h76ohj5). 
 
-![DC]({{ site.url }}/public/dcxp.jpg){: .center-image }
+![DC]({{ site.url }}/public/images/dcxp.jpg){: .center-image }
 *The DCXP team hard at work.*
 
 DCXP is a rapidly-paced bootcamp for talented technical students where they run through workshops, prototyping sprints, and collaborate to build amazing software products. This summer, we had a team of less than 15 high school and college students build the MVP for a bike sharing startup in *less than three weeks*. That company was [Baas Bikes](http://baasbikes.com/). The fact that students (many of whom aren't even old enough to drive!) built a functional prototype that quickly is energizing and testament to the talent available in the DMV.
