@@ -3,7 +3,7 @@ layout: post
 title: My Hope for DC Tech in 2016
 ---
 
-[DC](http://www.jasoncui.me/public/washington.jpg){: .center-image }
+![DC](http://jasoncui.me/public/washington.jpg){: .center-image }
 
 *This holiday season DC Inno published [a wish list](http://dcinno.streetwise.co/2015/12/24/dc-tech-startup-wishlist-2016/) of things it'd like to see happen with the DC tech community in 2016. I thought it would be interesting to publish a similar post, from a younger (and perhaps more inexperienced) perspective.*
 
