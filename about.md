@@ -19,4 +19,4 @@ This site is a collection of my projects, thoughts, and materials I find interes
 If you're curious, this site was built with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com/) and is hosted (for free) with [GitHub Pages](https://pages.github.com).
 
 Thanks for reading!
-![Signature](http://www.jasoncui.me/public/signature.png)
+![Signature](http://www.jasoncui.me/public/images/signature.png)
