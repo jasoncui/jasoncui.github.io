@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Beachy Headshot of Jason](http://www.jasoncui.me/public/images/jason2.jpg)
+
 Hi, I'm Jason!
 
 Born and raised in the DMV (DC/Maryland/Virginia area), I'm currently a junior at Harvard studying computer science. I'm passionate about product and the ability technology has to revolutionize our lives.
