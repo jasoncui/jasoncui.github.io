@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Hope for DC Tech in 2016
-permalink: short-urls-jekyll
+permalink: my-hope-for-DC-tech
 ---
 
 ![DC](http://jasoncui.me/public/images/washington.jpg){: .center-image }
